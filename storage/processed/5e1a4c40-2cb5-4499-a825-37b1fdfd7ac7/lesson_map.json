@@ -1,0 +1,590 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "title": "Tín hiệu & Hệ thống ELT2035 – Bài giảng 1: Giới thiệu về Tín hiệu và Hệ thống",
+  "source_language": "vi",
+  "main_topic": "Fundamental concepts, classification, quantitative measures, and basic operations of signals and systems in engineering.",
+  "learning_objectives": [
+    "Understand the scope, context, and logistics of the course 'Tín hiệu & Hệ thống ELT2035'.",
+    "Define and distinguish between signals and systems.",
+    "Classify signals according to key properties (time, periodicity, causality, symmetry, determinism, length, dimensionality).",
+    "Quantitatively analyze signals using energy and power measures.",
+    "Apply and interpret basic operations on signals (amplitude scaling, addition, multiplication, time shifting, reflection, time scaling).",
+    "Recognize and construct basic and composite signals.",
+    "Reinforce understanding through practice and summarize key concepts."
+  ],
+  "narrative_flow": [
+    "The lesson begins by introducing the course, its historical context, and practical logistics, establishing the foundational importance of signals and systems in engineering. It then defines the two central entities—signals and systems—explaining their roles and interrelationship. The lecture proceeds to systematically classify signals by their mathematical and physical properties, providing visual and conceptual frameworks for analysis. Quantitative measures of energy and power are introduced, with formulas and example problems to solidify understanding. The core of the lesson details the basic operations that can be performed on signals, both in amplitude and time domains, using diagrams and real-world examples to illustrate each operation. The narrative then introduces the most fundamental signal types and demonstrates how complex signals can be constructed from these building blocks, emphasizing the mathematical properties and practical significance of the impulse function. The lesson concludes with practice exercises and a comprehensive summary, consolidating the key concepts and preparing students for the next topic: systems."
+  ],
+  "sections": [
+    {
+      "title": "Course Introduction and Overview",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "purpose": "To introduce the course, its historical context, objectives, instructor, logistics, and foundational scope.",
+      "summary": "This section introduces the course 'Tín hiệu & Hệ thống ELT2035', providing students with the historical background of signals and systems as a discipline, outlining the main topics to be covered, and presenting essential logistical information such as instructor details, textbook, grading, and classroom expectations.",
+      "main_claims": [
+        "Signals and systems are foundational to electrical and computer engineering.",
+        "The course will cover mathematical descriptions, analysis, and applications of signals and systems.",
+        "Students are provided with logistical information and expectations."
+      ],
+      "concepts": [
+        "Tín hiệu (Signal)",
+        "Hệ thống (System)",
+        "Mô tả toán học (Mathematical description)",
+        "Hệ thống bất biến thời gian tuyến tính (Linear Time-Invariant Systems)",
+        "Course logistics (Instructor, textbook, grading, rules)"
+      ],
+      "definitions": [],
+      "formulas": [],
+      "examples": [],
+      "relationships_to_other_sections": [
+        "This section sets the stage for the technical content by providing context and expectations, leading into the definitions and classifications of signals."
+      ],
+      "explanation": {
+        "section_question": "What is the scope, context, and structure of the course 'Tín hiệu & Hệ thống ELT2035', and what foundational knowledge and logistics do students need to begin?",
+        "development": [
+          "Page 1 introduces the course by title, instructor, and affiliation, establishing the subject as 'Signals and Systems' and identifying the lecturer.",
+          "Page 2 provides historical context, noting that signals and systems became a core part of ECE curricula in the 1980s, referencing the seminal textbook by Oppenheim and Willsky (1983). It outlines the main topics: the concepts of signals and systems, their mathematical descriptions, and the analysis of linear time-invariant systems. The page also hints at applications in data analysis, machine learning, image processing, and digital communications, showing the relevance of the subject.",
+          "Page 3 details the practical aspects: instructor contact information, textbook (Haykin & Van Veen, 2nd edition), grading breakdown (questions/essays 15%, midterm 25%, final 60%), and basic classroom rules (respect, proactivity, punctuality)."
+        ],
+        "examples_formulas": "No explicit examples or formulas are provided in this introductory section. However, applications such as speech, ECG, image processing, and digital communications are mentioned as areas where signals and systems are relevant.",
+        "conclusion": "The section concludes by equipping students with both the conceptual framework and the logistical information necessary to engage with the course. It emphasizes the foundational role of signals and systems in modern engineering and sets clear expectations for participation and assessment. This prepares students for the subsequent technical sections, beginning with the definition and classification of signals."
+      }
+    },
+    {
+      "title": "Fundamental Concepts: Signals and Systems",
+      "pages": [
+        4,
+        5
+      ],
+      "purpose": "To define what constitutes a signal and a system, and establish their relationship.",
+      "summary": "This section introduces the foundational concepts of signals and systems. A signal is defined as any entity that carries information, such as speech, ECG, or stock indices, and may have one or more independent variables (e.g., images, videos). A system is any physical device or computer program that processes input signals to produce output signals. The section emphasizes the essential relationship between signals and systems, forming the basis for further study in signal processing.",
+      "main_claims": [
+        "A signal is any entity that carries information.",
+        "A system is any device or process that transforms input signals into output signals.",
+        "Understanding both is essential for signal processing."
+      ],
+      "concepts": [
+        "Signal",
+        "Information",
+        "Independent variable",
+        "System",
+        "Input Signal",
+        "Output Signal",
+        "System Analysis",
+        "System Synthesis"
+      ],
+      "definitions": [
+        {
+          "term": "Tín hiệu (Signal)",
+          "definition": "Bất cứ điều gì mang thông tin có thể coi là tín hiệu."
+        },
+        {
+          "term": "Biến độc lập (Independent variable)",
+          "definition": "Một tín hiệu có thể có nhiều biến độc lập hơn, ví dụ như hình ảnh, video."
+        },
+        {
+          "term": "Hệ thống (System)",
+          "definition": "Bất kỳ thiết bị vật lý/chương trình máy tính nào cũng được coi là một hệ thống."
+        }
+      ],
+      "formulas": [],
+      "examples": [
+        "Lời nói (speech)",
+        "ECG (electrocardiogram)",
+        "Chỉ số VN (stock index)",
+        "Hình ảnh (image)",
+        "Video"
+      ],
+      "relationships_to_other_sections": [
+        "This section introduces the two central entities of the course, which are further explored through classification and operations in subsequent sections."
+      ],
+      "section_question": "What are signals and systems, and how are they fundamentally related?",
+      "development": "The section begins by defining a signal as anything that carries information, providing concrete examples such as speech, ECG, and stock indices. It highlights that signals can have multiple independent variables, as in the case of images (2D) or videos (3D: two spatial and one temporal). The discussion then transitions to systems, defined as any physical device or computer program that processes input signals to produce output signals. The section illustrates this with diagrams showing input and output signals, and introduces the concepts of system analysis (determining output from input and system) and system synthesis (designing a system to achieve a desired output from a given input).",
+      "examples_and_formulas": "Examples include speech, ECG, and stock indices as signals, and a system that filters a noisy signal to produce a cleaner output. No explicit formulas are given in this section.",
+      "conclusion": "The section concludes that understanding both signals and systems is essential for signal processing, as all subsequent analysis and design in the field depend on these foundational concepts."
+    },
+    {
+      "title": "Classification of Signals",
+      "pages": [
+        6,
+        7
+      ],
+      "purpose": "To categorize signals based on time, periodicity, causality, symmetry, determinism, length, and dimensionality.",
+      "summary": "This section systematically classifies signals according to several fundamental properties: time representation (continuous or discrete), periodicity, causality, symmetry (even or odd), determinism, length (finite or infinite), and dimensionality (single or multi-channel/multidimensional). Each classification provides a framework for understanding how signals behave and how they can be analyzed or processed in systems.",
+      "main_claims": [
+        "Signals can be continuous or discrete, periodic or non-periodic, causal or non-causal, even or odd, deterministic or random, finite or infinite, and single or multi-dimensional.",
+        "These classifications are crucial for analysis and processing."
+      ],
+      "concepts": [
+        "Continuous and discrete time signals",
+        "Periodic and non-periodic signals",
+        "Causal, anti-causal, and non-causal signals",
+        "Even and odd signals",
+        "Deterministic and random signals",
+        "Finite and infinite length signals",
+        "Multi-channel and multidimensional signals"
+      ],
+      "definitions": [
+        "Tín hiệu thời gian liên tục: Continuous time signal",
+        "Tín hiệu rời rạc: Discrete time signal",
+        "Tín hiệu định kỳ: Periodic signal",
+        "Tín hiệu không định kỳ: Non-periodic signal",
+        "Tín hiệu nhân quả: Causal signal",
+        "Tín hiệu phản nhân quả: Anti-causal signal",
+        "Tín hiệu phi nhân quả: Non-causal signal",
+        "Even signals: Signals that are symmetric around the vertical axis.",
+        "Odd signals: Signals that are symmetric around the origin."
+      ],
+      "formulas": [],
+      "examples": [
+        {
+          "type": "Continuous and discrete time signals",
+          "description": "Illustrated with graphs showing continuous and discrete signals."
+        },
+        {
+          "type": "Periodic and non-periodic signals",
+          "description": "Graph showing a periodic waveform with amplitude and frequency."
+        },
+        {
+          "type": "Causal, anti-causal, and non-causal signals",
+          "description": "Graphs depicting different causal relationships in signals."
+        },
+        {
+          "type": "Even and odd signals",
+          "illustration": "The embedded image shows two graphs labeled x1(t) and x2(t) demonstrating even and odd signal characteristics."
+        }
+      ],
+      "relationships_to_other_sections": [
+        "Provides the taxonomy necessary for understanding how signals behave and how they are manipulated in systems and operations."
+      ],
+      "explanation": {
+        "section_question": "How can signals be systematically classified to facilitate their analysis and processing in engineering systems?",
+        "development": "The section begins by distinguishing signals based on their time representation: continuous time signals, which are defined for every value of time, and discrete time signals, which are defined only at specific time instances. Next, it classifies signals by periodicity: periodic signals repeat at regular intervals, while non-periodic signals do not. Causality is then addressed, with causal signals depending only on present and past values, anti-causal signals depending only on future values, and non-causal signals depending on both past and future values. The section continues by introducing symmetry: even signals are symmetric about the vertical axis, while odd signals are symmetric about the origin. Determinism distinguishes signals that can be precisely described (deterministic) from those that are random. Length refers to whether a signal exists over a finite or infinite time interval. Finally, dimensionality distinguishes between single-channel (one-dimensional) and multi-channel or multidimensional signals.",
+        "examples_formulas": "Examples are provided through graphs: continuous and discrete signals are shown visually, as are periodic and non-periodic waveforms. Causal, anti-causal, and non-causal signals are depicted with time axes indicating their dependencies. Even and odd signals are illustrated with two graphs labeled x1(t) and x2(t), showing their respective symmetries. No explicit formulas are given in this section.",
+        "conclusion": "By classifying signals according to these properties, engineers and scientists can better understand, analyze, and process signals in various systems. This taxonomy forms the foundation for subsequent topics, such as measuring signal energy and power, and understanding how signals interact with systems."
+      }
+    },
+    {
+      "title": "Quantitative Measures: Energy and Power of Signals",
+      "pages": [
+        8,
+        9
+      ],
+      "purpose": "To introduce and apply the concepts of energy and power in signal analysis.",
+      "summary": "This section introduces the quantitative measures of energy and power for both continuous and discrete time signals. It provides mathematical definitions and formulas for calculating total energy and average power, then applies these concepts to classify signals as energy or power signals. Example problems are solved to reinforce the theoretical understanding, and the mutual exclusivity of these classifications is discussed.",
+      "main_claims": [
+        "Signal energy and power are fundamental quantitative measures.",
+        "Signals can be classified as energy or power signals based on these measures.",
+        "Practical examples reinforce theoretical understanding."
+      ],
+      "concepts": [
+        "Signal energy",
+        "Signal power",
+        "Continuous time signals",
+        "Discrete time signals",
+        "Energy signal",
+        "Power signal",
+        "Signal classification"
+      ],
+      "definitions": [
+        "Total energy of continuous time signal: The integral of the square of the signal over time.",
+        "Average power of continuous time signal: The limit of the integral of the square of the signal over a period, divided by the period.",
+        "Total energy of discrete time signal: The sum of the squares of the signal values.",
+        "Average power of discrete time signal: The limit of the sum of the squares of the signal values divided by the number of values.",
+        "Energy signal: A signal whose total energy is finite.",
+        "Power signal: A signal whose average power is finite."
+      ],
+      "formulas": [
+        "E = ∫ f(t)^2 dt from -∞ to ∞",
+        "P = lim (T→∞) (1/T) ∫ f(t)^2 dt from -T/2 to T/2",
+        "E = Σ f[n]^2 from n=-∞ to ∞",
+        "P = lim (N→∞) (1/(2N+1)) Σ f[n]^2 from n=-N to N"
+      ],
+      "examples": [
+        {
+          "problem": "Find the energy and power of f(t) = sin(t).",
+          "solution": [
+            "Calculate total energy: E = lim (T→∞) ∫_{-T/2}^{T/2} sin^2(t) dt.",
+            "Since sin^2(t) is bounded and does not decay, the total energy diverges (E = ∞).",
+            "Calculate average power: P = lim (T→∞) (1/T) ∫_{-T/2}^{T/2} sin^2(t) dt = 1/2.",
+            "Conclusion: sin(t) is a power signal with average power 1/2, not an energy signal."
+          ]
+        }
+      ],
+      "relationships_to_other_sections": [
+        "Builds on signal classification and prepares students for understanding how signals are manipulated and analyzed in systems."
+      ],
+      "explanation": {
+        "section_question": "How do we quantitatively measure the 'size' of a signal, and how do these measures help us classify signals for further analysis?",
+        "development": "The section begins by defining two key quantitative measures: total energy and average power. For continuous time signals, energy is calculated as the integral of the square of the signal over all time, and power as the time-averaged value of this squared signal. Discrete time signals use summations instead of integrals. The section then introduces the classification of signals: if a signal has finite energy, it is called an energy signal; if it has finite average power, it is a power signal. These categories are mutually exclusive, and some signals may be neither.",
+        "examples_formulas": "The section provides explicit formulas for both continuous and discrete cases. For example, E = ∫ f(t)^2 dt for energy, and P = lim (T→∞) (1/T) ∫ f(t)^2 dt for power. An example is worked out for f(t) = sin(t), showing that its energy diverges but its average power is 1/2, classifying it as a power signal.",
+        "conclusion": "Quantitative measures such as energy and power are essential for analyzing and classifying signals. These measures not only provide insight into the nature of signals but also determine how they can be processed in systems. The section sets the foundation for further study of signal operations and system analysis."
+      }
+    },
+    {
+      "title": "Basic Operations on Signals",
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "purpose": "To explain and demonstrate the fundamental operations that can be performed on signals, both in amplitude and time domains.",
+      "summary": "This section introduces and details the fundamental operations that can be performed on signals, which are essential for signal manipulation and system design. These operations include amplitude scaling (amplification, attenuation, reversal), addition, multiplication, time shifting, reflection, and time scaling. Each operation is explained with definitions, mathematical expressions, and visual diagrams, showing how they alter a signal's amplitude or time characteristics. Practical examples, such as audio mixing and modulation, illustrate the real-world relevance of these operations.",
+      "main_claims": [
+        "Systems process signals through combinations of basic operations.",
+        "Operations include amplitude scaling, addition, multiplication, time shifting, reflection, and time scaling.",
+        "Understanding these operations is essential for signal manipulation and system design."
+      ],
+      "concepts": [
+        "Signal processing",
+        "Amplitude scaling",
+        "Addition",
+        "Multiplication",
+        "Differentiation",
+        "Integration",
+        "Time scaling",
+        "Reflection",
+        "Time shifting",
+        "Amplification",
+        "Attenuation",
+        "Reversal",
+        "Audio mixing",
+        "Modulation",
+        "Exponential decay"
+      ],
+      "definitions": [
+        {
+          "term": "Amplitude scaling",
+          "definition": "Adjusting the amplitude of a signal."
+        },
+        {
+          "term": "Addition",
+          "definition": "Combining two signals."
+        },
+        {
+          "term": "Multiplication",
+          "definition": "Multiplying signals together."
+        },
+        {
+          "term": "Differentiation",
+          "definition": "Calculating the derivative of a signal."
+        },
+        {
+          "term": "Integration",
+          "definition": "Calculating the integral of a signal."
+        },
+        {
+          "term": "Time scaling",
+          "definition": "The process of compressing or expanding the time axis of a signal."
+        },
+        {
+          "term": "Reflection",
+          "definition": "Flipping a signal over an axis, specifically by reversing the time variable."
+        },
+        {
+          "term": "Time shifting",
+          "definition": "Moving a signal in time."
+        },
+        {
+          "term": "Khuếch đại",
+          "definition": "Amplification"
+        },
+        {
+          "term": "Sự suy giảm",
+          "definition": "Attenuation"
+        },
+        {
+          "term": "Đảo ngược",
+          "definition": "Reversal"
+        }
+      ],
+      "formulas": [
+        "Y(t) = aX(t) + b",
+        "a > 1, b = 0: amplification",
+        "a < 1, b = 0: attenuation",
+        "a < 0, b = 0: reversal",
+        "Y(t) = X1(t) + X2(t)",
+        "Y(t) = X1(t) * X2(t)",
+        "Y(t) = 4e^{-2t} cos(6t - 60°)",
+        "Φ(t) = e^{-2t}, t ≥ 0; 0, t < 0",
+        "Reflection: Y(t) = X(-t)",
+        "Time scaling: ϕ(t) = f(2t), ϕ(t) = f(t/2)"
+      ],
+      "examples": [
+        {
+          "operation": "Addition",
+          "description": "Audio mixing: Y(t) = X1(t) + X2(t)"
+        },
+        {
+          "operation": "Multiplication",
+          "description": "Modulation: Y(t) = 4e^{-2t} cos(6t - 60°)"
+        },
+        {
+          "operation": "Time shifting",
+          "description": "Graphical representation of f(t), f(t-1), and f(t+1) for an exponential decay signal."
+        },
+        {
+          "operation": "Reflection",
+          "description": "Continuous and discrete signal reflection: Y(t) = X(-t), Y(n) = X(-n)"
+        },
+        {
+          "operation": "Time scaling",
+          "description": "Transforming f(t) into ϕ(t) = f(2t) (compression) and ϕ(t) = f(t/2) (expansion)."
+        }
+      ],
+      "relationships_to_other_sections": [
+        "This section applies foundational concepts and classifications of signals to practical manipulations, preparing students for the introduction of basic signal types and their use in constructing complex signals."
+      ],
+      "explanation": {
+        "section_question": "How do systems process and manipulate signals using basic operations, and what are the mathematical and practical implications of these operations?",
+        "development": "The section begins by stating that systems are built from combinations of basic signal operations. It categorizes these operations into those affecting amplitude (scaling, addition, multiplication, differentiation, integration) and those affecting the time variable (time scaling, reflection, time shifting). Each operation is then explored in detail:\n\n- Amplitude scaling is explained with the general formula Y(t) = aX(t) + b, with cases for amplification (a > 1), attenuation (a < 1), and reversal (a < 0), supported by diagrams.\n- Addition is introduced with the formula Y(t) = X1(t) + X2(t), and its application in audio mixing is illustrated with graphs and images of audio equipment.\n- Multiplication is presented with a practical example from modulation: Y(t) = 4e^{-2t} cos(6t - 60°), showing how signals can be combined to produce new behaviors.\n- Time shifting is explained using an exponential decay function, with diagrams showing the effects of delaying or advancing the signal (f(t-1), f(t+1)).\n- Reflection is described as replacing t with -t, producing a mirror image of the signal about t = 0, with diagrams for both continuous and discrete cases.\n- Time scaling demonstrates how compressing (f(2t)) or expanding (f(t/2)) the time axis alters the signal's appearance, with supporting diagrams.\n\nEach operation is accompanied by mathematical expressions and visual aids to reinforce understanding.",
+        "examples_and_formulas": "Examples include audio mixing for addition, modulation for multiplication, and graphical illustrations for time shifting, reflection, and scaling. Key formulas are provided for each operation, such as Y(t) = aX(t) + b for amplitude scaling, Y(t) = X1(t) + X2(t) for addition, and Y(t) = X(-t) for reflection.",
+        "conclusion": "The section concludes that mastering these basic operations is essential for analyzing and designing systems that process signals. These operations form the building blocks for more complex manipulations and signal constructions, which will be explored in subsequent sections."
+      }
+    },
+    {
+      "title": "Basic and Composite Signals",
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "purpose": "To introduce fundamental signal types (unit step, impulse, ramp, sinusoidal, exponential) and demonstrate how complex signals can be constructed from these building blocks.",
+      "summary": "This section introduces the most fundamental signals in signal processing: the unit step, unit impulse (Dirac delta), unit ramp, sinusoidal, and exponential signals. It explains their definitions, mathematical properties, and significance in modeling and analyzing more complex signals. The section also details the unique properties of the impulse function, such as its sampling and scaling properties, and concludes by demonstrating how complex signals can be synthesized from these basic signals using step functions.",
+      "main_claims": [
+        "Basic signals serve as the foundation for modeling and analyzing more complex signals.",
+        "Impulse functions have unique mathematical properties essential for analysis.",
+        "Complex signals can be synthesized from basic signals using operations and step functions."
+      ],
+      "concepts": [
+        "Unit Step Signal",
+        "Unit Impulse Signal (Dirac delta)",
+        "Unit Ramp Signal",
+        "Sinusoidal Signal",
+        "Exponential Signal (real and complex)",
+        "Impulse properties (multiplication, sampling, scaling)",
+        "Signal construction using step functions"
+      ],
+      "definitions": [
+        "Unit Step Signal: A signal that is 1 for t ≥ 0 and 0 for t < 0.",
+        "Unit Impulse Signal: Also known as the Dirac delta function, it is 0 for all t ≠ 0 and undefined at t = 0, with the property that its integral over the entire real line is 1.",
+        "Unit Ramp Signal: A signal with a constant slope starting from the origin.",
+        "Sinusoidal Signal: A signal of the form cos(ωt + φ).",
+        "Exponential Signal: A signal of the form e^{at}, where a can be real or complex."
+      ],
+      "formulas": [
+        "Unit Step: u(t) = 1, t ≥ 0; u(t) = 0, t < 0",
+        "Unit Impulse: δ(t) = 0 ∀ t ≠ 0; undefined at t = 0; ∫_{-∞}^{∞} δ(t) dt = 1",
+        "Unit Ramp: r(t) = t for t ≥ 0; r(t) = 0 for t < 0",
+        "Sinusoidal: x(t) = cos(ωt + φ)",
+        "Exponential: x(t) = e^{at}",
+        "Multiplication: f(0)δ(t)",
+        "Sampling: ∫ f(t)δ(t) dt = f(0)",
+        "Shifted Sampling: ∫ f(t)δ(t - a) dt = f(a)",
+        "Scaling: δ(at) = 1/|a| δ(t)"
+      ],
+      "examples": [
+        "Graph of unit step function showing a step at t = 0.",
+        "Graph of unit impulse function with a spike at t = 0.",
+        "Graph of unit ramp function showing a linear increase from the origin.",
+        "Sinusoidal waveform: cos(ωt + φ).",
+        "Exponential waveforms: decaying and growing exponentials.",
+        "The area under the product of a function with a unit impulse is equal to the value of the function at the location of the impulse.",
+        "Representation of a rectangular pulse by step functions."
+      ],
+      "relationships_to_other_sections": [
+        "Provides concrete examples and synthesis techniques that utilize the operations and classifications previously discussed."
+      ],
+      "section_question": "What are the fundamental building blocks of signals, what are their mathematical properties, and how can they be used to construct more complex signals?",
+      "development": "The section begins by introducing the most basic signals: the unit step, unit impulse (Dirac delta), and unit ramp. Each is defined mathematically and illustrated with diagrams. The unit impulse is highlighted for its unique mathematical properties, such as being zero everywhere except at t = 0, where it is undefined but integrates to one. The section then introduces sinusoidal and exponential signals, emphasizing their importance in modeling natural phenomena and system identification. The properties of the impulse function are explored in detail, including its multiplication, sampling, and time scaling properties, which are essential for mathematical analysis and signal processing. Finally, the section demonstrates how complex signals, such as rectangular pulses, can be constructed from these basic signals using step functions.",
+      "examples_and_formulas": "For the unit impulse, the sampling property is shown: ∫ f(t)δ(t) dt = f(0), and for a shifted impulse: ∫ f(t)δ(t - a) dt = f(a). The scaling property is δ(at) = 1/|a| δ(t). Sinusoidal signals are represented as cos(ωt + φ), and exponential signals as e^{at}. A rectangular pulse can be constructed as the difference of two step functions: u(t) - u(t - T), where T is the pulse width.",
+      "conclusion": "Basic signals such as the unit step, impulse, ramp, sinusoidal, and exponential are the foundational elements for signal analysis and synthesis. The unique properties of the impulse function make it indispensable for mathematical analysis, especially in sampling and system response. By combining these basic signals using operations like addition, scaling, and shifting—particularly with step functions—complex signals can be systematically constructed, providing a powerful toolkit for modeling and analyzing real-world signals."
+    },
+    {
+      "title": "Practice and Summary",
+      "pages": [
+        21,
+        22
+      ],
+      "purpose": "To reinforce learning through exercises and summarize the key concepts covered in the lecture.",
+      "summary": "This section provides students with practical exercises to apply their understanding of signal classification, calculation of energy and power, and basic signal operations. It then summarizes the fundamental concepts introduced throughout the lecture, including definitions, signal characteristics, and basic operations, and prepares students for the next topic: systems.",
+      "main_claims": [
+        "Practice is essential for mastering signal classification, calculation, and manipulation.",
+        "A summary consolidates understanding and prepares students for the next topic: systems."
+      ],
+      "concepts": [
+        "Signal classification",
+        "Signal energy and power calculation",
+        "Time scaling and shifting",
+        "Complex signal construction",
+        "Tín hiệu (Signal)",
+        "Dữ liệu (Data)",
+        "Thông tin (Information)",
+        "Kiến thức (Knowledge)",
+        "Hệ thống (System)",
+        "Biên độ (Amplitude)",
+        "Tính tuần hoàn (Periodicity)",
+        "Tính liên tục (Continuity)",
+        "Quan hệ nhân quả (Causality)",
+        "Năng lượng/công suất (Energy/Power)"
+      ],
+      "definitions": [],
+      "formulas": [],
+      "examples": [
+        "Bước (Step)",
+        "Đoạn đường nối (Ramp)",
+        "Xung (Pulse)"
+      ],
+      "relationships_to_other_sections": [
+        "Concludes the lecture by tying together all previous sections and transitioning to the study of systems in future lectures."
+      ],
+      "section_development": {
+        "question": "How can students reinforce their understanding of signal concepts, and what are the key takeaways from the lecture?",
+        "development": "The section begins with a set of exercises (page 21) that require students to classify signals, calculate their energy and power, perform time scaling and shifting, and construct complex signals from basic ones. These exercises are directly related to the concepts and operations introduced earlier in the lecture. Following the practice, page 22 provides a structured summary of the lecture's main points: definitions of signals, data, information, knowledge, and systems; characteristics of signals such as amplitude, periodicity, continuity, causality, and energy/power; signal classification; basic operations; and examples of basic signals. The summary concludes by indicating that the next lecture will focus on systems, thus providing a clear transition.",
+        "examples_and_conclusion": "While no detailed worked examples or formulas are provided in these pages, the exercises reference specific problems (e.g., 1.42, 1.44, 1.46, 1.52, 1.55) for students to solve, ensuring practical engagement. The summary lists typical signal examples such as step, ramp, and pulse, reinforcing recognition of basic signal types. The conclusion emphasizes the importance of practice for mastery and signals the upcoming shift to the study of systems."
+      }
+    }
+  ],
+  "full_lesson_summary": "The lecture opens by situating 'Tín hiệu & Hệ thống ELT2035' within the broader context of electrical and computer engineering, referencing its emergence as a core discipline in the 1980s and highlighting its relevance to modern applications such as data analysis, machine learning, and digital communications. Students are provided with essential logistical information, including instructor details, textbook, grading criteria, and classroom expectations, ensuring clarity on course structure and participation.\n\nWith the stage set, the lesson introduces the foundational concepts of signals and systems. A signal is broadly defined as any entity that carries information—examples include speech, ECG, and stock indices—and may have one or more independent variables, as in images or videos. A system is described as any physical device or computer program that processes input signals to produce output signals. The relationship between signals and systems is emphasized as central to the field, with diagrams illustrating how systems transform signals and the distinction between system analysis and synthesis.\n\nBuilding on these definitions, the lecture systematically classifies signals according to several key properties: whether they are continuous or discrete in time, periodic or non-periodic, causal or non-causal, even or odd in symmetry, deterministic or random, finite or infinite in length, and single or multi-dimensional. Each classification is supported by visual diagrams and examples, providing a comprehensive taxonomy that underpins further analysis and processing.\n\nThe lesson then introduces quantitative measures—energy and power—that allow for the mathematical analysis and classification of signals. Formulas are provided for both continuous and discrete time signals, and the distinction between energy signals (finite total energy) and power signals (finite average power) is explained. Example problems, such as analyzing the energy and power of a sine wave, reinforce these concepts and highlight the mutual exclusivity of these classifications.\n\nThe core of the lecture focuses on the basic operations that can be performed on signals, which are fundamental to signal processing and system design. These operations include amplitude scaling (amplification, attenuation, reversal), addition, multiplication, time shifting, reflection, and time scaling. Each operation is explained with definitions, mathematical expressions, and visual diagrams. Real-world applications, such as audio mixing (addition) and modulation (multiplication), are used to illustrate the practical relevance of these operations. The effects of time-domain manipulations—shifting, reflecting, and scaling—are demonstrated with graphical examples, showing how signals can be delayed, mirrored, or compressed/expanded in time.\n\nThe narrative then introduces the most basic signal types: the unit step, unit impulse (Dirac delta), unit ramp, sinusoidal, and exponential signals. Each is defined mathematically and illustrated with diagrams. The unique properties of the impulse function, such as its sampling and scaling properties, are explored in detail, emphasizing its theoretical importance in mathematical analysis and system response. The section concludes by demonstrating how complex signals, such as rectangular pulses, can be constructed from these basic signals using step functions, showcasing the power of synthesis from fundamental building blocks.\n\nTo reinforce learning, the lecture provides a set of practice exercises that require students to classify signals, calculate energy and power, perform basic operations, and construct complex signals from basic ones. These exercises ensure practical engagement with the material. The lesson concludes with a structured summary that reviews the main concepts, signal characteristics, and operations covered, and signals the transition to the next topic: systems.",
+  "key_takeaways": [
+    "Signals and systems are foundational concepts in engineering, underpinning modern applications in data analysis, communications, and more.",
+    "A signal is any entity that carries information; a system is any device or process that transforms input signals into output signals.",
+    "Signals can be classified by time representation, periodicity, causality, symmetry, determinism, length, and dimensionality, providing a framework for analysis.",
+    "Quantitative measures such as energy and power are essential for classifying and analyzing signals.",
+    "Basic operations—amplitude scaling, addition, multiplication, time shifting, reflection, and time scaling—are the building blocks for signal manipulation and system design.",
+    "Fundamental signals (unit step, impulse, ramp, sinusoidal, exponential) serve as the basis for modeling and constructing complex signals.",
+    "The impulse function has unique mathematical properties crucial for analysis and system response.",
+    "Practical exercises and a comprehensive summary consolidate understanding and prepare students for further study of systems."
+  ],
+  "page_index": {
+    "1": {
+      "title": "Tín hiệu & Hệ thống ELT2035",
+      "main_message": "Introduction to the course 'Tín hiệu & Hệ thống ELT2035'.",
+      "section": "Course Introduction and Overview"
+    },
+    "2": {
+      "title": "Tổng quan khóa học (1)",
+      "main_message": "Introduction to the course on signals and systems, covering historical context, key concepts, and applications.",
+      "section": "Course Introduction and Overview"
+    },
+    "3": {
+      "title": "Tổng quan khóa học (2)",
+      "main_message": "The page provides an overview of the course, including instructor details, textbook information, grading breakdown, and basic rules.",
+      "section": "Course Introduction and Overview"
+    },
+    "4": {
+      "title": "Tín hiệu là gì?",
+      "main_message": "A signal is anything that carries information, such as speech, ECG, or stock indices. Signals can have multiple independent variables, like images or videos.",
+      "section": "Fundamental Concepts: Signals and Systems"
+    },
+    "5": {
+      "title": "hệ thống là gì?",
+      "main_message": "A system can be any physical device or computer program that processes input signals to produce output signals.",
+      "section": "Fundamental Concepts: Signals and Systems"
+    },
+    "6": {
+      "title": "Phân loại tín hiệu (1)",
+      "main_message": "The page categorizes signals into continuous-discrete, periodic-non-periodic, and causal-anti-causal-non-causal types.",
+      "section": "Classification of Signals"
+    },
+    "7": {
+      "title": "Phân loại tín hiệu (2)",
+      "main_message": "The page discusses various classifications of signals, including even-odd signals, deterministic-random signals, finite-infinite length signals, and multi-channel multidimensional signals.",
+      "section": "Classification of Signals"
+    },
+    "8": {
+      "title": "Năng lượng và sức mạnh của tín hiệu",
+      "main_message": "The page explains how to calculate the total energy and average power of continuous and discrete time signals using integrals and summations.",
+      "section": "Quantitative Measures: Energy and Power of Signals"
+    },
+    "9": {
+      "title": "Tín hiệu năng lượng và công suất",
+      "main_message": "The classification of signals into energy and power signals, with examples and solutions.",
+      "section": "Quantitative Measures: Energy and Power of Signals"
+    },
+    "10": {
+      "title": "Các thao tác cơ bản trên tín hiệu",
+      "main_message": "The page explains basic operations on signals, emphasizing how systems use these operations to process input signals into desired outputs.",
+      "section": "Basic Operations on Signals"
+    },
+    "11": {
+      "title": "Biên độ hoạt động",
+      "main_message": "The page explains the operating range of a system, focusing on amplification, attenuation, and reversal, with corresponding mathematical conditions and visual diagrams.",
+      "section": "Basic Operations on Signals"
+    },
+    "12": {
+      "title": "Bổ sung tín hiệu",
+      "main_message": "The lecture page explains the concept of signal addition, with a practical application in audio mixing.",
+      "section": "Basic Operations on Signals"
+    },
+    "13": {
+      "title": "Phép nhân tín hiệu",
+      "main_message": "The page explains the concept of signal multiplication, providing a formula and illustrating its practical application in modulation systems.",
+      "section": "Basic Operations on Signals"
+    },
+    "14": {
+      "title": "Thời gian dịch chuyển tín hiệu",
+      "main_message": "The page explains the concept of signal time shifting using mathematical expressions and graphical representations.",
+      "section": "Basic Operations on Signals"
+    },
+    "15": {
+      "title": "Phản ánh tín hiệu",
+      "main_message": "Signal reflection involves reversing the time variable in a signal to obtain its reflected version.",
+      "section": "Basic Operations on Signals"
+    },
+    "16": {
+      "title": "Chia tỷ lệ thời gian của tín hiệu",
+      "main_message": "The page explains the concept of time scaling of signals, demonstrating how a signal changes when its time axis is scaled.",
+      "section": "Basic Operations on Signals"
+    },
+    "17": {
+      "title": "Tín hiệu cơ bản (1)",
+      "main_message": "Introduction to basic signals: unit step, unit impulse, and unit ramp.",
+      "section": "Basic and Composite Signals"
+    },
+    "18": {
+      "title": "Tín hiệu cơ bản (2)",
+      "main_message": "Understanding basic signals like sinusoidal and exponential signals is crucial for modeling natural signals, building complex signals, and system identification.",
+      "section": "Basic and Composite Signals"
+    },
+    "19": {
+      "title": "Đặc tính xung",
+      "main_message": "The lecture discusses the properties of impulse functions, including multiplication, sampling, and time scaling, emphasizing the theoretical importance of impulse functions in mathematical analysis.",
+      "section": "Basic and Composite Signals"
+    },
+    "20": {
+      "title": "Ví dụ về xây dựng một khu phức hợp",
+      "main_message": "The page demonstrates how to construct complex signals from basic signals using step functions.",
+      "section": "Basic and Composite Signals"
+    },
+    "21": {
+      "title": "Luyện tập",
+      "main_message": "The slide outlines exercises for practicing signal classification, calculating energy and power of signals, performing basic operations on signals, and constructing complex signals from basic ones.",
+      "section": "Practice and Summary"
+    },
+    "22": {
+      "title": "Bản tóm tắt",
+      "main_message": "The page provides an overview of basic concepts related to signals, data, information, knowledge, and systems, along with signal characteristics and operations.",
+      "section": "Practice and Summary"
+    }
+  },
+  "coverage": {
+    "total_pages": 22,
+    "summarized_pages": 22,
+    "section_count": 7,
+    "first_page": 1,
+    "last_page": 22,
+    "pages_with_vision": 22,
+    "pages_with_vision_errors": 0
+  },
+  "processing_version": "5.0-page-vision-openai"
+}

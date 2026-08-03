@@ -1,0 +1,64 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 11,
+  "slide_number": 11,
+  "source_text": "Biên độ hoạt động\n❑ Nói chung,    =      +  .\nkhuếch đại\n➢ > 1,   = 0:khuếch đại\nsự suy giảm➢ < 1,   = 0:sự suy giảm\n➢ < 0,   = 0:đảo ngược",
+  "title": "Biên độ hoạt động",
+  "vision_description": "The lecture page titled 'Biên độ hoạt động' (Operating Range) includes text, formulas, and diagrams. The page is structured with a title at the top, followed by textual explanations and mathematical formulas. Diagrams are placed to the right of the text, illustrating concepts such as amplification, attenuation, and reversal.",
+  "main_message": "The page explains the operating range of a system, focusing on amplification, attenuation, and reversal, with corresponding mathematical conditions and visual diagrams.",
+  "concepts": [
+    "Biên độ hoạt động",
+    "Khuếch đại",
+    "Sự suy giảm",
+    "Đảo ngược"
+  ],
+  "definitions": [
+    "Khuếch đại: Amplification",
+    "Sự suy giảm: Attenuation",
+    "Đảo ngược: Reversal"
+  ],
+  "formulas": [
+    "Nói chung, ( ) = + .",
+    "> 1, = 0: khuếch đại",
+    "< 1, = 0: sự suy giảm",
+    "< 0, = 0: đảo ngược"
+  ],
+  "examples": [],
+  "tables": [],
+  "charts": [
+    {
+      "description": "Diagrams illustrating amplification, attenuation, and reversal.",
+      "spatial_relationship": "Diagrams are aligned to the right of the text, each showing a graph with axes labeled 't' and 'x(t)'."
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.85,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Biên độ hoạt động: Operating Range",
+    "Khuếch đại: Amplification",
+    "Sự suy giảm: Attenuation",
+    "Đảo ngược: Reversal"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0011.png",
+  "uncertain_content": [
+    "The exact mathematical expressions are not fully clear due to incomplete symbols."
+  ],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "b37ff0cb790a1a7f38e9581440e416e9062d72e218a9f94728f43e053a2acd2d",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

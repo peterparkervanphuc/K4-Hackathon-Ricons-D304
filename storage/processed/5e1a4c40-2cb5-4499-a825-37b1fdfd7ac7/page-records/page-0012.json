@@ -1,0 +1,51 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 12,
+  "slide_number": 12,
+  "source_text": "Bổ sung tín hiệu\n❑ Ứng dụng thực tế: bộ \ntrộn âm thanh",
+  "title": "Bổ sung tín hiệu",
+  "vision_description": "The page titled 'Bổ sung tín hiệu' features diagrams and an image related to signal addition. It includes graphs labeled (A), (B), and (C) showing signal functions X1(t), X2(t), and their sum Y(t) = X1(t) + X2(t). An image of audio equipment is also present.",
+  "main_message": "The lecture page explains the concept of signal addition, with a practical application in audio mixing.",
+  "concepts": [
+    "Signal addition",
+    "Audio mixing"
+  ],
+  "definitions": [],
+  "formulas": [
+    "Y(t) = X1(t) + X2(t)"
+  ],
+  "examples": [],
+  "tables": [],
+  "charts": [
+    {
+      "type": "graph",
+      "description": "Graphs of signals X1(t), X2(t), and their sum Y(t)."
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Bổ sung tín hiệu: Signal addition",
+    "Ứng dụng thực tế: bộ trộn âm thanh: Practical application: audio mixer"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0012.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "0aa30318921a5a6fd2d7868b76e456bef0cc573398115487d54e62ae3e51a5e4",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

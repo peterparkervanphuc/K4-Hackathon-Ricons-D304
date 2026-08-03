@@ -1,0 +1,83 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 6,
+  "slide_number": 6,
+  "source_text": "Phân loại tín hiệu (1)\n❑ Tín hiệu thời gian liên tục – rời rạc\n❑ Tín hiệu định kỳ – không định kỳ\n❑ Tín hiệu nhân quả – phản nhân quả – phi nhân quả",
+  "title": "Phân loại tín hiệu (1)",
+  "vision_description": "The lecture page titled 'Phân loại tín hiệu (1)' presents different types of signals with accompanying diagrams. The page is structured with bullet points and images illustrating each signal type.",
+  "main_message": "The page categorizes signals into continuous-discrete, periodic-non-periodic, and causal-anti-causal-non-causal types.",
+  "concepts": [
+    "Continuous and discrete time signals",
+    "Periodic and non-periodic signals",
+    "Causal, anti-causal, and non-causal signals"
+  ],
+  "definitions": [
+    "Tín hiệu thời gian liên tục: Continuous time signal",
+    "Tín hiệu rời rạc: Discrete time signal",
+    "Tín hiệu định kỳ: Periodic signal",
+    "Tín hiệu không định kỳ: Non-periodic signal",
+    "Tín hiệu nhân quả: Causal signal",
+    "Tín hiệu phản nhân quả: Anti-causal signal",
+    "Tín hiệu phi nhân quả: Non-causal signal"
+  ],
+  "formulas": [],
+  "examples": [
+    {
+      "type": "Continuous and discrete time signals",
+      "description": "Illustrated with graphs showing continuous and discrete signals."
+    },
+    {
+      "type": "Periodic and non-periodic signals",
+      "description": "Graph showing a periodic waveform with amplitude and frequency."
+    },
+    {
+      "type": "Causal, anti-causal, and non-causal signals",
+      "description": "Graphs depicting different causal relationships in signals."
+    }
+  ],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Continuous time signal: Tín hiệu thời gian liên tục",
+    "Discrete time signal: Tín hiệu rời rạc",
+    "Periodic signal: Tín hiệu định kỳ",
+    "Non-periodic signal: Tín hiệu không định kỳ",
+    "Causal signal: Tín hiệu nhân quả",
+    "Anti-causal signal: Tín hiệu phản nhân quả",
+    "Non-causal signal: Tín hiệu phi nhân quả"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 3,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 4,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 5,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0006.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "1636dd4f409dcf4f1c59a9df4b2d4bdfdd7483f0a34259a9c82286c6f9f0554e",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

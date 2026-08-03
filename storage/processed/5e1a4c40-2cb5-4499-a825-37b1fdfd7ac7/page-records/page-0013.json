@@ -1,0 +1,66 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 13,
+  "slide_number": 13,
+  "source_text": "Phép nhân tín hiệu\n❑ phác thảo    =      ( ),với    = 4 −2 &     = cos(6  − 60°)\n➢   = 4 −2 cos(6  − 60°)\n❑ Ứng dụng thực tế: bộ điều biến.\nBộ khuếch đại\nBộ dao động",
+  "title": "Phép nhân tín hiệu",
+  "vision_description": "The lecture page titled 'Phép nhân tín hiệu' (Signal Multiplication) includes a mathematical formula, a graph, and a diagram illustrating a practical application. The page is structured with a title at the top, followed by text and images arranged vertically.",
+  "main_message": "The page explains the concept of signal multiplication, providing a formula and illustrating its practical application in modulation systems.",
+  "concepts": [
+    "Signal Multiplication",
+    "Modulation",
+    "Amplification",
+    "Oscillation"
+  ],
+  "definitions": [],
+  "formulas": [
+    "phác thảo = (), với = 4−2 & = cos(6 − 60°)",
+    "= 4−2 cos(6 − 60°)"
+  ],
+  "examples": [
+    "Ứng dụng thực tế: bộ điều biến."
+  ],
+  "tables": [],
+  "charts": [
+    {
+      "type": "graph",
+      "description": "A graph showing a cosine function with a phase shift."
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Signal Multiplication: Phép nhân tín hiệu",
+    "Modulation: bộ điều biến",
+    "Amplification: Bộ khuếch đại",
+    "Oscillation: Bộ dao động"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 3,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 4,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0013.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "7a38316867b92425ba8c00e7e484159f31eedb38447987bae8cb2d98c795d6a0",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

@@ -1,0 +1,54 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 15,
+  "slide_number": 15,
+  "source_text": "Phản ánh tín hiệu\n❑ Cho một tín hiệu    ,sự phản ánh của   là một tín hiệu    thu \nđược bằng cách thay thế thời gian với − ,I E    =  (− ).\n➢ tín hiệu   đại diện cho một phiên bản phản ánh của    Về  = 0.",
+  "title": "Phản ánh tín hiệu",
+  "vision_description": "The lecture page titled 'Phản ánh tín hiệu' discusses signal reflection. It includes text, formulas, and diagrams illustrating continuous and discrete signal reflection.",
+  "main_message": "Signal reflection involves reversing the time variable in a signal to obtain its reflected version.",
+  "concepts": [
+    "Signal reflection",
+    "Time reversal"
+  ],
+  "definitions": [
+    {
+      "term": "Phản ánh tín hiệu",
+      "definition": "A process where a signal is reflected by reversing its time variable."
+    }
+  ],
+  "formulas": [
+    "I E = (−t)",
+    "Signal reflection at t = 0"
+  ],
+  "examples": [],
+  "tables": [],
+  "charts": [
+    {
+      "type": "diagram",
+      "description": "Two diagrams showing continuous and discrete signal reflection. The continuous signal is labeled X(-t) and X(t), while the discrete signal is labeled X(n) and (-n)X."
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Phản ánh tín hiệu: Signal reflection",
+    "tín hiệu: signal",
+    "thời gian: time"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0015.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "aef7d7f88712cb8af47f1b328eee2bba50778898328924028357e16d944890d2",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

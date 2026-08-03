@@ -1,0 +1,61 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 7,
+  "slide_number": 7,
+  "source_text": "Phân loại tín hiệu (2)\n❑ Tín hiệu chẵn – lẻ\n❑ Xác định - Tín hiệu ngẫu nhiên\n❑ Tín hiệu có độ dài hữu hạn - vô hạn\n❑ Đa kênh – tín hiệu đa chiều",
+  "title": "Phân loại tín hiệu (2)",
+  "vision_description": "The lecture page titled 'Phân loại tín hiệu (2)' presents different classifications of signals. It includes a list of signal types and an embedded image illustrating even and odd signals.",
+  "main_message": "The page discusses various classifications of signals, including even-odd signals, deterministic-random signals, finite-infinite length signals, and multi-channel multidimensional signals.",
+  "concepts": [
+    "Even and odd signals",
+    "Deterministic and random signals",
+    "Finite and infinite length signals",
+    "Multi-channel and multidimensional signals"
+  ],
+  "definitions": [
+    "Even signals: Signals that are symmetric around the vertical axis.",
+    "Odd signals: Signals that are symmetric around the origin."
+  ],
+  "formulas": [],
+  "examples": [
+    {
+      "type": "Even and odd signals",
+      "illustration": "The embedded image shows two graphs labeled x1(t) and x2(t) demonstrating even and odd signal characteristics."
+    }
+  ],
+  "tables": [],
+  "charts": [
+    {
+      "type": "Graph",
+      "description": "Two graphs illustrating even and odd signals with axes labeled t and amplitude A."
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Even signals: Tín hiệu chẵn",
+    "Odd signals: Tín hiệu lẻ",
+    "Deterministic signals: Tín hiệu xác định",
+    "Random signals: Tín hiệu ngẫu nhiên",
+    "Finite length signals: Tín hiệu có độ dài hữu hạn",
+    "Infinite length signals: Tín hiệu có độ dài vô hạn",
+    "Multi-channel signals: Đa kênh",
+    "Multidimensional signals: Tín hiệu đa chiều"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0007.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "3112201588a0614450adf7ac050e29c336b950846756fefddfb88767494926b7",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

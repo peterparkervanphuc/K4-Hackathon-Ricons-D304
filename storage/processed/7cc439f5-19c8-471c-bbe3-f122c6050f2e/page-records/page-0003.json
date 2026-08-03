@@ -1,0 +1,47 @@
+{
+  "document_id": "7cc439f5-19c8-471c-bbe3-f122c6050f2e",
+  "page": 3,
+  "slide_number": 3,
+  "source_text": "I. Thặng dư tiêu dùng\nThặng dư tiêu dùng là gì ?\nThặng dư tiêu dùng là phần chênh lệch giữa giá mà một người tiêu dùng  sẵn sàng trả để mua được một hàng hóa và giá mà người tiêu dùng đó thực sự phải  trả (giá thị trường) khi mua hàng hóa đó.\n\nThặng dư tiêu dùng phản ánh sự chênh lệch giữa lợi ích của người tiêu \ndùng một đơn vị hàng hóa nào đó với chi phí thực tế để có được lợi ích đó\n1. Khái niệm",
+  "title": "I. Thặng dư tiêu dùng",
+  "vision_description": "The page is a lecture slide discussing 'Consumer Surplus' in Vietnamese. It includes a title, a definition, and an illustration of a confused character.",
+  "main_message": "The concept of consumer surplus is introduced and defined.",
+  "concepts": [
+    "Consumer Surplus"
+  ],
+  "definitions": [
+    {
+      "term": "Thặng dư tiêu dùng",
+      "definition": "Phần chênh lệch giữa giá mà một người tiêu dùng sẵn sàng trả để mua được một hàng hóa và giá mà người tiêu dùng đó thực sự phải trả (giá thị trường) khi mua hàng hóa đó."
+    }
+  ],
+  "formulas": [],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Consumer Surplus: Thặng dư tiêu dùng"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "name": "Picture 6",
+      "shape_type": "PICTURE (13)",
+      "left": 5809683,
+      "top": 2038560,
+      "width": 4017893,
+      "height": 4017893
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\7cc439f5-19c8-471c-bbe3-f122c6050f2e\\renders\\page-0003.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "d010016179aef414f547be4d7848c512bcc3677cf4ca0373e3eefe5b99ef1fef",
+  "original_name": "Chương 4.pptx"
+}

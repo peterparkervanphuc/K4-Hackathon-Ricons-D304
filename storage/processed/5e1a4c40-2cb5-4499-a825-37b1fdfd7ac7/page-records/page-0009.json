@@ -1,0 +1,47 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 9,
+  "slide_number": 9,
+  "source_text": "Tín hiệu năng lượng và công suất\n❑ Một tín hiệu được gọi lànăng lượngtín hiệu nếu tổng năng lượng của \ntín hiệu bị giới hạn\n❑ Một tín hiệu được gọi làquyền lựctín hiệu nếu công suất trung bình \ncủa tín hiệu bị giới hạn\n❑ Đố:Tìm năng lượng và sức mạnh của    = tội lỗi  \n❑ Giải pháp:\n➢  = lim\ncos 2    ቃ = lim\n \n −  tội lỗi  2   = lim\n \n−  tội lỗi2     = lim1ቂ     −\n →∞  →∞ →∞ 2 − \n \n − \n−tội lỗi 2   \nቚ = ∞ (từtội lỗi 2 bị giới hạn).\n →∞ 2 4 −  \n➢  = lim1\n \n −  tội lỗi  2   = lim1\n−(− )−S\n2\ntrong 2 −sin(−2 )\n4 =1.\n→∞ 2  →∞ 2  2\n❑ Việc phân loại năng lượng và công suất của tín hiệu làloại trừ \nlẫn nhau\n➢ Có những tín hiệu không phải là tín hiệu năng lượng hay công suất",
+  "title": "Tín hiệu năng lượng và công suất",
+  "vision_description": "The page is a lecture slide discussing energy and power signals. It includes definitions, a problem statement, solutions with mathematical formulas, and a note on signal classification.",
+  "main_message": "The classification of signals into energy and power signals, with examples and solutions.",
+  "concepts": [
+    "Energy signal",
+    "Power signal",
+    "Signal classification"
+  ],
+  "definitions": [
+    "Energy signal: Một tín hiệu được gọi là năng lượng tín hiệu nếu tổng năng lượng của tín hiệu bị giới hạn.",
+    "Power signal: Một tín hiệu được gọi là quyền lực tín hiệu nếu công suất trung bình của tín hiệu bị giới hạn."
+  ],
+  "formulas": [
+    "= lim (cos 2) = lim (− tội lỗi 2) = lim1 (−) = ∞ (từ tội lỗi 2 bị giới hạn).",
+    "= lim1 (− tội lỗi 2) = lim1 (−(−)−S) trong 2 −sin(−2) 4 =1."
+  ],
+  "examples": [
+    "Đố: Tìm năng lượng và sức mạnh của = tội lỗi"
+  ],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "energy signal: năng lượng tín hiệu",
+    "power signal: quyền lực tín hiệu",
+    "signal classification: phân loại tín hiệu"
+  ],
+  "embedding": [],
+  "image_objects": [],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0009.png",
+  "uncertain_content": [
+    "The term 'tội lỗi' seems to be a placeholder or error in the formulas."
+  ],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "4858bccc14b7855b794514c04206027f0c18c45d1f9f11dfa2ab66e68da070a9",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

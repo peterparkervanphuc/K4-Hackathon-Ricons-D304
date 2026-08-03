@@ -1,0 +1,36 @@
+{
+  "document_id": "7cc439f5-19c8-471c-bbe3-f122c6050f2e",
+  "page": 2,
+  "slide_number": 2,
+  "source_text": "Mục lục\nThặng dư tiêu dùng.\n\nHạn chế của lý thuyết lợi ích.",
+  "title": "Mục lục",
+  "vision_description": "The page is a table of contents from a lecture, titled 'Mục lục'. It lists two main topics: 'Thặng dư tiêu dùng' and 'Hạn chế của lý thuyết lợi ích'. The layout is simple, with the title at the top followed by a horizontal line, and the topics are listed below with Roman numerals.",
+  "main_message": "This page outlines the main topics covered in the lecture.",
+  "concepts": [
+    "Thặng dư tiêu dùng",
+    "Hạn chế của lý thuyết lợi ích"
+  ],
+  "definitions": [],
+  "formulas": [],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.98,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Mục lục: Table of Contents",
+    "Thặng dư tiêu dùng: Consumer Surplus",
+    "Hạn chế của lý thuyết lợi ích: Limitations of Utility Theory"
+  ],
+  "embedding": [],
+  "image_objects": [],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\7cc439f5-19c8-471c-bbe3-f122c6050f2e\\renders\\page-0002.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "8aaff8805a8a1684ef12f89871eafde5c53f57d47102bd1ab4fd3cfe51945131",
+  "original_name": "Chương 4.pptx"
+}

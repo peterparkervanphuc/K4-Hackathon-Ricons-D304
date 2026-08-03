@@ -1,0 +1,433 @@
+{
+  "passed": 17,
+  "failed": 0,
+  "skipped": 11,
+  "total": 28,
+  "results": [
+    {
+      "name": "page parser: Trang 5 viết gì?",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "exact_page_question",
+        "pages": [
+          5
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: Trang n-4 nói về gì?",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "exact_page_question",
+        "pages": [
+          4
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: Trang tiếp theo có ví dụ nào?",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "exact_page_question",
+        "pages": [
+          5
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: Ba trang tiếp theo",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "page_range_question",
+        "pages": [
+          5,
+          6,
+          7
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: Từ trang 5 đến trang 9",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "page_range_question",
+        "pages": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: So sánh trang 3 và trang 9",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "comparison_question",
+        "pages": [
+          3,
+          9
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "OpenAI missing -> Groq fallback",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "Both keys missing -> clear configuration error",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "PPTX PageRecord coverage",
+      "passed": true,
+      "skipped": false,
+      "detail": 10
+    },
+    {
+      "name": "PageRecord schema",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "No fake generic relations",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "LessonMap covers all pages once",
+      "passed": true,
+      "skipped": false,
+      "detail": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Embedding cache exists",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "Original source hash unchanged",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "live: Trang 5 viết gì?",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "exact_page_question",
+        "citations": [
+          5
+        ],
+        "answer": "Trang 5 trình bày một ví dụ về cách xác định thặng dư tiêu dùng (consumer surplus) cho một cá nhân bằng cách sử dụng đường cầu (demand curve) và giá thị trường (market price). Ví dụ này liên quan đến việc xem xét sự sẵn sàng thanh toán của người tiêu dùng A khi mua bánh kem. Thặng dư tiêu dùng được định nghĩa là phần diện tích của hình nằm phía trên đường giá và dưới đường cầu, được minh họa bằng diện tích tam giác AP0E trong hình."
+      }
+    },
+    {
+      "name": "live: Trang n-4 nói về gì?",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "live: Trang tiếp theo có ví dụ nào?",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "live: So sánh trang 3 và trang 9.",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "live: Tóm tắt từ trang 5 đến trang 10.",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "live: Đang ở trang 10, slide 3 nói về gì?",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "live PDF: Trang 5 viết gì?",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "live PDF: Trang n-4 nói về gì?",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "live PDF: Trang tiếp theo có ví dụ nào?",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "live PDF: Trang 8 giải thích công thức nào?",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "live PDF: whole-document hierarchical summary",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "status": 503,
+        "body": "{\"detail\":\"openai đang vượt giới hạn sử dụng; hãy thử lại sau hoặc cấu hình OPENAI_API_KEY.\",\"error_code\":\"ai_provider_unavailable\"}"
+      }
+    },
+    {
+      "name": "same question is grounded differently per document",
+      "passed": false,
+      "skipped": true,
+      "detail": {
+        "pdf": null,
+        "pptx": null
+      }
+    },
+    {
+      "name": "page range endpoint returns exact ordered PageRecords",
+      "passed": true,
+      "skipped": false,
+      "detail": [
+        {
+          "page": 5,
+          "original_text": "hệ thống là gì?\n❑ Bất kỳ thiết bị vật lý/chương trình máy tính nào cũng được coi là một hệ thống\n➢ liệu việc áp dụng tín hiệu vào thiết bị hoặc chương trình có tạo ra tín hiệu mới hay không.\nTín hiệu đầu vào Tín hiệu đầu ra\nHệ thống\n❑ Khách quan: xây dựng một hệ thống để tạo ra những đầu ra mong muốn\n➢ Hệ thốngPhân tích: với đầu vào và hệ thống, đầu ra sẽ là gì?\n➢ Hệ thốngtổng hợp: với đầu vào và đầu ra mong muốn, hệ thống sẽ như thế nào?",
+          "title": "hệ thống là gì?",
+          "page_summary": "A system can be any physical device or computer program that processes input signals to produce output signals.",
+          "main_message": "A system can be any physical device or computer program that processes input signals to produce output signals.",
+          "definitions": [
+            "System: Bất kỳ thiết bị vật lý/chương trình máy tính nào cũng được coi là một hệ thống."
+          ],
+          "formulas": [],
+          "examples": [],
+          "tables": [],
+          "charts": [
+            {
+              "description": "Two line graphs showing a noisy input signal and a filtered output signal.",
+              "axes": {
+                "x-axis": "Time (s)",
+                "y-axis": "Signal amplitude"
+              }
+            }
+          ],
+          "vision_description": "The page is a lecture slide discussing the concept of a system. It includes a title, text, and diagrams illustrating input and output signals.",
+          "image_descriptions": [
+            "The page is a lecture slide discussing the concept of a system. It includes a title, text, and diagrams illustrating input and output signals."
+          ],
+          "notes": "",
+          "source_language": "vi"
+        },
+        {
+          "page": 6,
+          "original_text": "Phân loại tín hiệu (1)\n❑ Tín hiệu thời gian liên tục – rời rạc\n❑ Tín hiệu định kỳ – không định kỳ\n❑ Tín hiệu nhân quả – phản nhân quả – phi nhân quả",
+          "title": "Phân loại tín hiệu (1)",
+          "page_summary": "The page categorizes signals into continuous-discrete, periodic-non-periodic, and causal-anti-causal-non-causal types.",
+          "main_message": "The page categorizes signals into continuous-discrete, periodic-non-periodic, and causal-anti-causal-non-causal types.",
+          "definitions": [
+            "Tín hiệu thời gian liên tục: Continuous time signal",
+            "Tín hiệu rời rạc: Discrete time signal",
+            "Tín hiệu định kỳ: Periodic signal",
+            "Tín hiệu không định kỳ: Non-periodic signal",
+            "Tín hiệu nhân quả: Causal signal",
+            "Tín hiệu phản nhân quả: Anti-causal signal",
+            "Tín hiệu phi nhân quả: Non-causal signal"
+          ],
+          "formulas": [],
+          "examples": [
+            {
+              "type": "Continuous and discrete time signals",
+              "description": "Illustrated with graphs showing continuous and discrete signals."
+            },
+            {
+              "type": "Periodic and non-periodic signals",
+              "description": "Graph showing a periodic waveform with amplitude and frequency."
+            },
+            {
+              "type": "Causal, anti-causal, and non-causal signals",
+              "description": "Graphs depicting different causal relationships in signals."
+            }
+          ],
+          "tables": [],
+          "charts": [],
+          "vision_description": "The lecture page titled 'Phân loại tín hiệu (1)' presents different types of signals with accompanying diagrams. The page is structured with bullet points and images illustrating each signal type.",
+          "image_descriptions": [
+            "The lecture page titled 'Phân loại tín hiệu (1)' presents different types of signals with accompanying diagrams. The page is structured with bullet points and images illustrating each signal type."
+          ],
+          "notes": "",
+          "source_language": "vi"
+        },
+        {
+          "page": 7,
+          "original_text": "Phân loại tín hiệu (2)\n❑ Tín hiệu chẵn – lẻ\n❑ Xác định - Tín hiệu ngẫu nhiên\n❑ Tín hiệu có độ dài hữu hạn - vô hạn\n❑ Đa kênh – tín hiệu đa chiều",
+          "title": "Phân loại tín hiệu (2)",
+          "page_summary": "The page discusses various classifications of signals, including even-odd signals, deterministic-random signals, finite-infinite length signals, and multi-channel multidimensional signals.",
+          "main_message": "The page discusses various classifications of signals, including even-odd signals, deterministic-random signals, finite-infinite length signals, and multi-channel multidimensional signals.",
+          "definitions": [
+            "Even signals: Signals that are symmetric around the vertical axis.",
+            "Odd signals: Signals that are symmetric around the origin."
+          ],
+          "formulas": [],
+          "examples": [
+            {
+              "type": "Even and odd signals",
+              "illustration": "The embedded image shows two graphs labeled x1(t) and x2(t) demonstrating even and odd signal characteristics."
+            }
+          ],
+          "tables": [],
+          "charts": [
+            {
+              "type": "Graph",
+              "description": "Two graphs illustrating even and odd signals with axes labeled t and amplitude A."
+            }
+          ],
+          "vision_description": "The lecture page titled 'Phân loại tín hiệu (2)' presents different classifications of signals. It includes a list of signal types and an embedded image illustrating even and odd signals.",
+          "image_descriptions": [
+            "The lecture page titled 'Phân loại tín hiệu (2)' presents different classifications of signals. It includes a list of signal types and an embedded image illustrating even and odd signals."
+          ],
+          "notes": "",
+          "source_language": "vi"
+        },
+        {
+          "page": 8,
+          "original_text": "Năng lượng và sức mạnh của tín hiệu\n❑ Tổng năng lượng của tín hiệu thời gian liên tục f(t) là\n∞\n = න  ( )2  \n− ∞\n❑ Và công suất trung bình của nó là\n Τ2\n1 = lim න  ( )2  \n→∞ \n−  Τ2\n❑ Tương tự, đối với tín hiệu thời gian rời rạc f(n)\n∞\n =    [ ]2\n=−∞\n \n1\n→∞2  + 1 = lim  [ ]2\n=−",
+          "title": "Năng lượng và sức mạnh của tín hiệu",
+          "page_summary": "The page explains how to calculate the total energy and average power of continuous and discrete time signals using integrals and summations.",
+          "main_message": "The page explains how to calculate the total energy and average power of continuous and discrete time signals using integrals and summations.",
+          "definitions": [
+            "Total energy of continuous time signal: The integral of the square of the signal over time.",
+            "Average power of continuous time signal: The limit of the integral of the square of the signal over a period, divided by the period.",
+            "Total energy of discrete time signal: The sum of the squares of the signal values.",
+            "Average power of discrete time signal: The limit of the sum of the squares of the signal values divided by the number of values."
+          ],
+          "formulas": [
+            "E = ∫ f(t)^2 dt from -∞ to ∞",
+            "P = lim (T→∞) (1/T) ∫ f(t)^2 dt from -T/2 to T/2",
+            "E = Σ f[n]^2 from n=-∞ to ∞",
+            "P = lim (N→∞) (1/(2N+1)) Σ f[n]^2 from n=-N to N"
+          ],
+          "examples": [],
+          "tables": [],
+          "charts": [],
+          "vision_description": "The lecture page discusses the energy and power of signals, focusing on continuous and discrete time signals. It includes mathematical formulas and explanations.",
+          "image_descriptions": [
+            "The lecture page discusses the energy and power of signals, focusing on continuous and discrete time signals. It includes mathematical formulas and explanations."
+          ],
+          "notes": "",
+          "source_language": "vi"
+        },
+        {
+          "page": 9,
+          "original_text": "Tín hiệu năng lượng và công suất\n❑ Một tín hiệu được gọi lànăng lượngtín hiệu nếu tổng năng lượng của \ntín hiệu bị giới hạn\n❑ Một tín hiệu được gọi làquyền lựctín hiệu nếu công suất trung bình \ncủa tín hiệu bị giới hạn\n❑ Đố:Tìm năng lượng và sức mạnh của    = tội lỗi  \n❑ Giải pháp:\n➢  = lim\ncos 2    ቃ = lim\n \n −  tội lỗi  2   = lim\n \n−  tội lỗi2     = lim1ቂ     −\n →∞  →∞ →∞ 2 − \n \n − \n−tội lỗi 2   \nቚ = ∞ (từtội lỗi 2 bị giới hạn).\n →∞ 2 4 −  \n➢  = lim1\n \n −  tội lỗi  2   = lim1\n−(− )−S\n2\ntrong 2 −sin(−2 )\n4 =1.\n→∞ 2  →∞ 2  2\n❑ Việc phân loại năng lượng và công suất của tín hiệu làloại trừ \nlẫn nhau\n➢ Có những tín hiệu không phải là tín hiệu năng lượng hay công suất",
+          "title": "Tín hiệu năng lượng và công suất",
+          "page_summary": "The classification of signals into energy and power signals, with examples and solutions.",
+          "main_message": "The classification of signals into energy and power signals, with examples and solutions.",
+          "definitions": [
+            "Energy signal: Một tín hiệu được gọi là năng lượng tín hiệu nếu tổng năng lượng của tín hiệu bị giới hạn.",
+            "Power signal: Một tín hiệu được gọi là quyền lực tín hiệu nếu công suất trung bình của tín hiệu bị giới hạn."
+          ],
+          "formulas": [
+            "= lim (cos 2) = lim (− tội lỗi 2) = lim1 (−) = ∞ (từ tội lỗi 2 bị giới hạn).",
+            "= lim1 (− tội lỗi 2) = lim1 (−(−)−S) trong 2 −sin(−2) 4 =1."
+          ],
+          "examples": [
+            "Đố: Tìm năng lượng và sức mạnh của = tội lỗi"
+          ],
+          "tables": [],
+          "charts": [],
+          "vision_description": "The page is a lecture slide discussing energy and power signals. It includes definitions, a problem statement, solutions with mathematical formulas, and a note on signal classification.",
+          "image_descriptions": [
+            "The page is a lecture slide discussing energy and power signals. It includes definitions, a problem statement, solutions with mathematical formulas, and a note on signal classification."
+          ],
+          "notes": "",
+          "source_language": "vi"
+        }
+      ]
+    },
+    {
+      "name": "safe provider status",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "generation_provider": "openai",
+        "generation_model": "gpt-4.1",
+        "vision_provider": "openai",
+        "vision_model": "gpt-4o",
+        "embedding_provider": "openai",
+        "embedding_model": "text-embedding-3-small",
+        "research_provider": "tavily",
+        "configured": true,
+        "openai_configured": true,
+        "groq_fallback_configured": true
+      }
+    }
+  ]
+}

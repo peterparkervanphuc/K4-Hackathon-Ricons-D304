@@ -10,6 +10,7 @@ interface AskPayload {
   page: number
   highlights: { page: number; text: string }[]
   screenshots: { page: number; data_url: string }[]
+  use_web: boolean
 }
 
 interface Props {
@@ -37,6 +38,7 @@ export function ChatPanel({
   const [messages, setMessages] = useState<ChatMessage[]>([])
   const [followups, setFollowups] = useState<string[]>([])
   const [draft, setDraft] = useState('')
+  const [useWeb, setUseWeb] = useState(false)
   const [pending, setPending] = useState(false)
   const [error, setError] = useState<string | null>(null)
   // The payload of the last failed request, kept so it can be resent without
@@ -104,6 +106,7 @@ export function ChatPanel({
       page,
       highlights: highlights.map((h) => ({ page: h.page, text: h.text })),
       screenshots: screenshots.map((s) => ({ page: s.page, data_url: s.dataUrl })),
+      use_web: useWeb,
     }
 
     setDraft('')
@@ -121,6 +124,7 @@ export function ChatPanel({
         grounded: true,
         highlights: payload.highlights,
         screenshot_count: payload.screenshots.length,
+        web_sources: [],
       },
     ])
     onClearTray()
@@ -197,6 +201,16 @@ export function ChatPanel({
                         <span className="citation-page">p.{citation.page}</span>
                         <span className="citation-quote">{citation.quote}</span>
                       </button>
+                    ))}
+                  </div>
+                )}
+                {message.web_sources.length > 0 && (
+                  <div className="web-sources">
+                    <span>External sources</span>
+                    {message.web_sources.map((source) => (
+                      <a key={source.url} href={source.url} target="_blank" rel="noreferrer">
+                        {source.title}
+                      </a>
                     ))}
                   </div>
                 )}
@@ -302,6 +316,11 @@ export function ChatPanel({
             <Icon name="send" size={14} />
           </button>
         </div>
+
+        <label className="web-toggle">
+          <input type="checkbox" checked={useWeb} onChange={(event) => setUseWeb(event.target.checked)} />
+          Use cited web sources for deeper explanations and examples
+        </label>
 
         <p className="composer-hint">
           {trayCount > 0

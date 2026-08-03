@@ -1,0 +1,21 @@
+{
+  "source_sha256": "43583155c4ac56ee876a000c8623cb2fbac08092aaea9d887da9cf74f5ccc940",
+  "original_name": "SS01_2023S1.en.vi.pdf",
+  "processing_version": "5.0-page-vision-openai",
+  "generation_provider": "openai",
+  "vision_model": "gpt-4o",
+  "embedding_provider": "openai",
+  "embedding_model": "text-embedding-3-small",
+  "provider_status": {
+    "generation_provider": "openai",
+    "generation_model": "gpt-4.1",
+    "vision_provider": "openai",
+    "vision_model": "gpt-4o",
+    "embedding_provider": "openai",
+    "embedding_model": "text-embedding-3-small",
+    "research_provider": "tavily",
+    "configured": true,
+    "openai_configured": true,
+    "groq_fallback_configured": true
+  }
+}

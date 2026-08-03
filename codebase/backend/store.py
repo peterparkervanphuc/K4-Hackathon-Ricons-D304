@@ -144,6 +144,7 @@ class ChatSession:
             "grounded": extra.get("grounded", True),
             "highlights": extra.get("highlights", []),
             "screenshot_count": extra.get("screenshot_count", 0),
+            "web_sources": extra.get("web_sources", []),
         }
         self.messages.append(message)
         return message

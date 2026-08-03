@@ -1,0 +1,46 @@
+{
+  "document_id": "7cc439f5-19c8-471c-bbe3-f122c6050f2e",
+  "page": 4,
+  "slide_number": 4,
+  "source_text": "2. Công thức tính thặng dư tiêu dùng\nCông thức:  CS = MU – MC\n             Trong đó: \nCS: Thặng dư tiêu dùng\nMU: Lợi ích cận biên\nMC: Chi phí cận biên\nMối quan hệ giữa MU và MC với hành vi người tiêu dùng ta có:\nMU > MC => CS > 0; Người tiêu dùng nên tăng mức tiêu dùng. \nMU < MC => CS < 0; Người tiêu dùng cần giảm mức tiêu dùng. \nMU = MC => CS = 0; Người tiêu dùng cần dừng mức tiêu dùng để đạt lợi ích \nlà lớn nhất.",
+  "title": "2. Công thức tính thặng dư tiêu dùng",
+  "vision_description": "The lecture page is titled '2. Công thức tính thặng dư tiêu dùng' and focuses on the formula for calculating consumer surplus. It includes a formula, definitions, and explanations of relationships between marginal utility and marginal cost.",
+  "main_message": "The page explains how to calculate consumer surplus using the formula CS = MU - MC, and describes the consumer behavior based on the relationship between marginal utility (MU) and marginal cost (MC).",
+  "concepts": [
+    "Consumer Surplus (CS)",
+    "Marginal Utility (MU)",
+    "Marginal Cost (MC)"
+  ],
+  "definitions": [
+    "CS: Thặng dư tiêu dùng",
+    "MU: Lợi ích cận biên",
+    "MC: Chi phí cận biên"
+  ],
+  "formulas": [
+    "CS = MU - MC",
+    "MU > MC => CS > 0; Người tiêu dùng nên tăng mức tiêu dùng.",
+    "MU < MC => CS < 0; Người tiêu dùng cần giảm mức tiêu dùng.",
+    "MU = MC => CS = 0; Người tiêu dùng cần dừng mức tiêu dùng để đạt lợi ích là lớn nhất."
+  ],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Consumer Surplus: Thặng dư tiêu dùng",
+    "Marginal Utility: Lợi ích cận biên",
+    "Marginal Cost: Chi phí cận biên"
+  ],
+  "embedding": [],
+  "image_objects": [],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\7cc439f5-19c8-471c-bbe3-f122c6050f2e\\renders\\page-0004.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "3897dc6e61deb7b50297d5b52a17e190faf38807c2e7c80f2c4c8d689d9fd183",
+  "original_name": "Chương 4.pptx"
+}

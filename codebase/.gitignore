@@ -1,7 +1,9 @@
 backend/storage/
 backend/.env
+.env
 backend/__pycache__/
 backend/**/__pycache__/
+.venv/
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/

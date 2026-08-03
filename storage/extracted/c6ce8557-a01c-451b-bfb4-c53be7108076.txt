@@ -1,0 +1,253 @@
+ELT2035 Signals & Systems
+Hoang Gia Hung
+Faculty of Electronics and Telecommunications 
+University of Engineering and Technology, VNU Hanoi
+Lecture 1: Introduction
+
+❑ Started to be in ECE curricula in the 1980s (the first textbook by 
+A. V. Oppenheim and A. S. Willsky was published in 1983)
+➢ Concepts of signals and systems
+➢ Mathematical descriptions of signals and systems
+➢ Analysis of Linear Time Invariant Systems
+Course overview (1)
+Signals
+Data
+Information
+Knowledge
+ELT3051 (Signals and systems)
+Image processing, Digital Communications, …
+Data Mining & Analytics, Machine Learning, …
+Digital Signal Processing, Coding, …
+
+❑ Lecturer
+➢ Hoàng Gia Hưng, Dept. Elect. Comp. Eng. (R702, E3 buiding, 144 Xuan 
+Thuy)
+➢ Appointment-based consultation
+❑ Text book: S. Haykin and B. Van Veen, “Signals and Systems”, 
+2nd ed., Wiley, 2005.
+❑ Grading:
+➢ Quizzes/essays: 15%
+➢ Midterm: 25%
+➢ Final: 60%
+❑ Some ground rules:
+➢ Respect
+➢ Proactive
+➢ Punctual
+Course overview (2)
+
+❑ Roughly speaking, anything that carries information can be 
+considered a signal: speech, ECG, VN index, …
+❑ Plotted against time, which is called an independent variable
+➢ A signal may have more independent variables, e.g. pictures, videos, …
+What is signal?
+
+❑ Any physical device/computer program is considered a system 
+➢ if the application of a signal to the device or program generates a new signal.
+❑ Objective: build a system to produce desirable outputs
+➢ System analysis: given the input & system, what will be the output?
+➢ System synthesis: given the input & desired ouput, what will be the system?
+What is system?
+System
+Input signal Output signal
+
+❑ Continuous – Discrete time signals
+❑ Periodic – Nonperiodic signals
+❑ Causal – Anticausal – Noncausal signals
+Classification of signals (1)
+
+❑ Odd – Even signals
+❑ Deterministic – Random signals
+❑ Finite – infinite length signals
+❑ Multichannel – multidimensional signals
+Classification of signals (2)
+
+❑ The total energy of a continuous time signal f(t) is
+𝐸𝑓 = න
+−∞
+∞
+𝑓(𝑡) 2𝑑𝑡
+❑ And its average power is
+𝑃𝑓 = lim
+𝑇→∞
+1
+𝑇 න
+− Τ𝑇 2
+Τ𝑇 2
+𝑓(𝑡) 2𝑑𝑡
+❑ Similarly, for a discrete time signal f(n)
+𝐸𝑓 = ෍
+𝑛=−∞
+∞
+𝑓[𝑛] 2
+𝑃𝑓 = lim
+𝑁→∞
+1
+2𝑁 + 1 ෍
+𝑛=−𝑁
+𝑁
+𝑓[𝑛] 2
+Energy and power of signals
+
+❑ A signal is referred to as an energy signal iff the total energy of 
+the signal is bounded
+❑ A signal is referred to as a power signal iff the average power of 
+the signal is bounded
+❑ Quiz: Find the energy and power of 𝑓 𝑡 = sin 𝑡
+❑ Solution:
+➢ 𝐸𝑓 = lim
+𝑇→∞׬−𝑇
+𝑇
+sin 𝑡 2 𝑑𝑡 = lim
+𝑇→∞׬−𝑇
+𝑇
+sin2 𝑡 𝑑𝑡 = lim
+𝑇→∞
+1
+2 ቂ
+ቃ
+׬−𝑇
+𝑇
+𝑑𝑡 −
+׬−𝑇
+𝑇
+cos 2𝑡 𝑑𝑡 = lim
+𝑇→∞
+ቚ
+𝑡
+2 −
+sin 2𝑡
+4 −𝑇
+𝑇
+= ∞ (since sin 2𝑡 is bounded).
+➢ 𝑃𝑓 = lim
+𝑇→∞
+1
+2𝑇׬−𝑇
+𝑇
+sin 𝑡 2𝑑𝑡 = lim
+𝑇→∞
+1
+2𝑇
+𝑇−(−𝑇)
+2 −
+sin 2𝑇−sin(−2𝑇)
+4 =
+1
+2.
+❑ The energy and power classifications of signals are mutually 
+exclusive
+➢ There are signals that are neither energy nor power signals
+Energy and power signals
+
+❑ A system is usually built by combining multiple basic operations 
+on input signals to obtain the desirable output signals.
+➢ How are signals be manipulated inside a system?
+❑ Operations performed on dependent variables: 
+➢ amplitude scaling, addition, multiplication, differentiation, integration. 
+❑ Operations performed on the independent variable: 
+➢ Time scaling, reflection, time shifting
+Basic operations on signals
+
+Amplitude operations
+❑ In general, 𝑦 𝑡 = 𝐴𝑥 𝑡 + 𝐵.
+➢ 𝐴 > 1, 𝐵 = 0: amplification
+➢ 𝐴 < 1, 𝐵 = 0: attenuation
+➢ 𝐴 < 0, 𝐵 = 0: reversal
+attenuation
+amplification
+
+Signals addition
+❑ Real-life application: 
+audio mixer
+
+Signals multiplication
+❑ Sketch 𝑠 𝑡 = 𝑥 𝑡 𝑦(𝑡), with 𝑥 𝑡 = 4𝑒−2𝑡 & 𝑦 𝑡 = cos(6𝑡 − 60°)
+➢ 𝑠 𝑡 = 4𝑒−2𝑡 cos(6𝑡 − 60°)
+❑ Real-life application: modulators.
+Oscillator
+Amplifier
+
+Time shifting a signal
+❑ Given 𝑓 𝑡 = ቊ𝑒−2𝑡, 𝑡 ≥ 0
+0, 𝑡 < 0 , sketch the signals 𝑓 𝑡 − 1 & 𝑓 𝑡 + 1
+
+Reflecting a signal
+❑ Given a signal 𝑥 𝑡 , the reflection of 𝑥 𝑡 is a signal 𝑦 𝑡
+obtained by replacing time 𝑡 with −𝑡, i.e. 𝑦 𝑡 = 𝑥(−𝑡).
+➢ The signal 𝑦 𝑡 represents a reflected version of 𝑥 𝑡 about 𝑡 = 0.
+
+Time scaling a signal
+❑ A signal 𝑓 𝑡   is depicted below. Sketch 𝑓 2𝑡 & 𝑓
+𝑡
+2 .
+
+❑ Unit step signal: 𝑢(𝑡)  = ቊ1, 𝑡 ≥ 0
+0, 𝑡 < 0
+❑ Unit impulse signal (a.k.a. Dirac delta function): 𝛿 𝑡 = 0 ∀𝑡 ≠ 0
+and׬−∞
+∞
+𝛿 𝑡 𝑑𝑡 = 1. Notice that 𝛿 𝑡 is undefined at 𝑡 = 0.
+❑ Unit ramp signal: 𝑡𝑢(𝑡)
+Elementary signals (1)
+
+❑ Sinusoidal signal: 𝐴 cos(𝜔𝑡 + 𝜑)
+❑ (Real) exponential signal: 𝐵𝑒𝛼𝑡
+❑ (Complex) exponential signal: 𝑒𝑠𝑡 where 𝑠 = 𝜎 + 𝑗𝜔.
+❑ Why do we need elementary signals?
+➢ Modelling natural signals
+➢ Construct more complex signals
+➢ System identification 
+Elementary signals (2)
+
+❑ Multiplication of a unit impulse 𝛿 𝑡 by a function 𝑥(𝑡) that is 
+known to be continuous at 𝑡 = 0: 
+➢ 𝑥 𝑡 𝛿 𝑡 = 𝑥(0)𝛿(𝑡).
+➢ Similarly, 𝑥 𝑡 𝛿 𝑡 − 𝑇 = 𝑥(𝑇)𝛿(𝑡 − 𝑇), provided 𝑥(𝑡) is continuous at 𝑡 = 𝑇.
+❑ Sampling/sifting property: ׬−∞
+∞
+𝑥 𝑡 𝛿 𝑡 𝑑𝑡 = 𝑥(0).
+➢׬−∞
+∞
+𝑥 𝑡 𝛿 𝑡 𝑑𝑡 =׬−∞
+∞
+𝑥 0 𝛿 𝑡 𝑑𝑡 = 𝑥 0׬−∞
+∞
+𝛿 𝑡 𝑑𝑡 = 𝑥 0 . Similarly, 
+׬−∞
+∞
+𝑥 𝑡 𝛿 𝑡 − 𝑇 𝑑𝑡 = 𝑥(𝑇).
+➢ The area under the product of a function with an unit impulse equals the 
+value of that function where the unit impulse is located.
+❑ Time-scaling property: 𝛿 𝑎𝑡 =
+1
+𝑎 𝛿(𝑡). Proof: HW.
+❑ 𝛿 𝑡 is not an ordinary function but rather a generalized function
+➢ In this approach, 𝛿 𝑡  is defined by its effect on other functions at every 
+instant of time (i.e. the sampling property).
+➢ The important of the unit impulse is not its shape but the fact that its width 
+approaches zero while its area remains unity.
+Impulse properties
+
+Example of constructing a complex 
+signal from elementary signals
+
+❑ Classification of signal (1.42, p. 88)
+❑ Calculation of the total energy and power of a given signal (1.44, 
+1.46 p. 88)
+❑ Performing basic operations, especially a combination of time 
+scaling and time shifting, on a given signal (1.52, p.89)
+❑ Construction of a complex signal from several elementary 
+signals (1.55, p.89)
+Practice
+
+❑ Course overview
+❑ Basic concepts
+➢ Signals, Data, Information, Knowledge, Systems.
+➢ Signal modelling & characteristics: amplitude, periodicity, continuity, causality, 
+energy/power
+❑ Signal classification
+❑ Basic operations on signals
+❑ Elementary signals
+➢ E.g. step, ramp, impulse, …
+❑ Next lecture: Systems.
+Summary

@@ -1,0 +1,56 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 2,
+  "slide_number": 2,
+  "source_text": "Tổng quan khóa học (1)\n❑ Bắt đầu được đưa vào chương trình giảng dạy ECE vào những năm 1980 (sách giáo khoa đầu tiên của\nAV Oppenheim và AS Willsky được xuất bản năm 1983)\n➢ Khái niệm về tín hiệu và hệ thống\n➢ Mô tả toán học của tín hiệu và hệ thống\n➢ Phân tích hệ thống bất biến thời gian tuyến tính\nKiến thức Khai thác & phân tích dữ liệu, Học máy, …\nThông tin Xử lý hình ảnh, Truyền thông số,…\nDữ liệu Xử lý, mã hóa tín hiệu số, …\nTín hiệu ELT3051 (Tín hiệu và hệ thống)",
+  "title": "Tổng quan khóa học (1)",
+  "vision_description": "The lecture page provides an overview of a course related to signals and systems, with historical context, key concepts, and a diagram illustrating the flow from signals to knowledge.",
+  "main_message": "Introduction to the course on signals and systems, covering historical context, key concepts, and applications.",
+  "concepts": [
+    "Tín hiệu và hệ thống",
+    "Mô tả toán học",
+    "Hệ thống bất biến thời gian tuyến tính"
+  ],
+  "definitions": [],
+  "formulas": [],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Tín hiệu: Signal",
+    "Hệ thống: System",
+    "Kiến thức: Knowledge",
+    "Thông tin: Information",
+    "Dữ liệu: Data"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 3,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 4,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0002.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "29bee04f41942776ecc7f4081d59bd21eabfd504f5a8a1795fd36ad9bae34e76",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

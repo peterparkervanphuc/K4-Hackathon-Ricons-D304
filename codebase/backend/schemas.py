@@ -61,11 +61,20 @@ class Citation(BaseModel):
     )
 
 
+class WebSource(BaseModel):
+    title: str
+    url: str
+
+
 class AskRequest(BaseModel):
     question: str = Field(..., min_length=1, description="The learner's question")
     page: Optional[int] = Field(None, description="Page currently open in the viewer")
     highlights: List[Highlight] = Field(default_factory=list, description="Zero or more highlighted passages")
     screenshots: List[Screenshot] = Field(default_factory=list, description="Zero or more page crops")
+    use_web: bool = Field(
+        False,
+        description="Allow Google Search to find supplementary, cited explanations beyond the PDF",
+    )
 
 
 class ChatMessage(BaseModel):
@@ -77,6 +86,7 @@ class ChatMessage(BaseModel):
     grounded: bool = True
     highlights: List[Highlight] = Field(default_factory=list)
     screenshot_count: int = 0
+    web_sources: List[WebSource] = Field(default_factory=list)
 
 
 class SessionSummary(BaseModel):
@@ -135,6 +145,6 @@ class QuizResponse(BaseModel):
 
 class HealthResponse(BaseModel):
     status: str
-    gemini_configured: bool
+    openai_configured: bool
     model: str
     documents: int

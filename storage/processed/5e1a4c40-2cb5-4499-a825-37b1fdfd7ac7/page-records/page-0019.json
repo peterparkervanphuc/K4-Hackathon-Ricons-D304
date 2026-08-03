@@ -1,0 +1,50 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 19,
+  "slide_number": 19,
+  "source_text": "Đặc tính xung\n❑ Phép nhâncủa một xung đơn vị   bởi một chức năng ( )được \nbiết là liên tục tại  = 0:\n➢       =  (0) ( ).\n➢ Tương tự,        −   =  ( ) (  −  ),cung cấp ( )liên tục tại  =  .\n❑ Lấy mẫu/sàng lọctài sản:∞            =  (0).− ∞\n➢\n∞\n −∞∞\n         =∞   0      =   0\n∞\n       =   0 .Tương tự,− ∞− ∞\n −∞       −      =  ( ).\n➢ Diện tích bên dưới tích của một hàm có xung đơn vị bằng giá trị của hàm \nđó nơi đặt xung đơn vị.\n❑ Chia tỷ lệ thời giantài sản:     =1 ( ).Chứng minh: HW.\n❑  không phải là một chức năng thông thường mà là mộtkhái quátchức năng\n \n➢ Trong cách tiếp cận này,   được xác định bởi tác động của nó lên các chức năng khác \ntại mọi thời điểm (tức là thuộc tính lấy mẫu).\n➢ Tầm quan trọng của xung đơn vị làkhông hình dạng của nó nhưng thực tế là chiều rộng của \nnó tiến tới 0 trong khi diện tích của nó vẫn bằng 1.",
+  "title": "Đặc tính xung",
+  "vision_description": "The page is a lecture slide titled 'Đặc tính xung' which translates to 'Impulse Characteristics'. It contains text, bullet points, and mathematical formulas. The layout is structured with a title at the top, followed by sections with bullet points and formulas.",
+  "main_message": "The lecture discusses the properties of impulse functions, including multiplication, sampling, and time scaling, emphasizing the theoretical importance of impulse functions in mathematical analysis.",
+  "concepts": [
+    "Impulse function",
+    "Multiplication of impulse",
+    "Sampling property",
+    "Time scaling",
+    "Generalized function"
+  ],
+  "definitions": [
+    "Impulse function: A mathematical function that is zero everywhere except at zero, where it is infinitely high such that its integral over the entire real line is equal to one."
+  ],
+  "formulas": [
+    "f(0)δ(t)",
+    "f(t)δ(t - a)",
+    "∫ f(t)δ(t) dt = f(0)",
+    "∫ f(t)δ(t - a) dt = f(a)",
+    "δ(at) = 1/|a| δ(t)"
+  ],
+  "examples": [
+    "The area under the product of a function with a unit impulse is equal to the value of the function at the location of the impulse."
+  ],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Impulse function: xung đơn vị",
+    "Sampling property: tính lấy mẫu",
+    "Time scaling: chia tỷ lệ thời gian",
+    "Generalized function: khái quát chức năng"
+  ],
+  "embedding": [],
+  "image_objects": [],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0019.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "cd018eb151cf31bb06b00380846a0d80c20d81f3cb33eea1ffc95eeed50484dc",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

@@ -1,0 +1,60 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 5,
+  "slide_number": 5,
+  "source_text": "hệ thống là gì?\n❑ Bất kỳ thiết bị vật lý/chương trình máy tính nào cũng được coi là một hệ thống\n➢ liệu việc áp dụng tín hiệu vào thiết bị hoặc chương trình có tạo ra tín hiệu mới hay không.\nTín hiệu đầu vào Tín hiệu đầu ra\nHệ thống\n❑ Khách quan: xây dựng một hệ thống để tạo ra những đầu ra mong muốn\n➢ Hệ thốngPhân tích: với đầu vào và hệ thống, đầu ra sẽ là gì?\n➢ Hệ thốngtổng hợp: với đầu vào và đầu ra mong muốn, hệ thống sẽ như thế nào?",
+  "title": "hệ thống là gì?",
+  "vision_description": "The page is a lecture slide discussing the concept of a system. It includes a title, text, and diagrams illustrating input and output signals.",
+  "main_message": "A system can be any physical device or computer program that processes input signals to produce output signals.",
+  "concepts": [
+    "System",
+    "Input Signal",
+    "Output Signal",
+    "System Analysis",
+    "System Synthesis"
+  ],
+  "definitions": [
+    "System: Bất kỳ thiết bị vật lý/chương trình máy tính nào cũng được coi là một hệ thống."
+  ],
+  "formulas": [],
+  "examples": [],
+  "tables": [],
+  "charts": [
+    {
+      "description": "Two line graphs showing a noisy input signal and a filtered output signal.",
+      "axes": {
+        "x-axis": "Time (s)",
+        "y-axis": "Signal amplitude"
+      }
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "System: Hệ thống",
+    "Input Signal: Tín hiệu đầu vào",
+    "Output Signal: Tín hiệu đầu ra",
+    "System Analysis: Hệ thống Phân tích",
+    "System Synthesis: Hệ thống tổng hợp"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0005.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "8c45da7c673eec61b6cda28e136e9786c613f350c9c97b451468d7dc830aafd8",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

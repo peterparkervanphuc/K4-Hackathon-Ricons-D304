@@ -1,0 +1,40 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 21,
+  "slide_number": 21,
+  "source_text": "Luyện tập\n❑ Phân loại tín hiệu (1.42, tr. 88)\n❑ Tính tổng năng lượng và công suất của một tín hiệu đã cho (1.44,\n1,46 trang. 88)\n❑ Thực hiện các thao tác cơ bản, đặc biệt là kết hợp giữa chia tỷ lệ thời gian và \ndịch chuyển thời gian, trên một tín hiệu nhất định (1.52, tr.89)\n❑ Xây dựng tín hiệu phức tạp từ nhiều tín hiệu cơ bản (1.55, \ntr.89)",
+  "title": "Luyện tập",
+  "vision_description": "The page is a lecture slide titled 'Luyện tập' which translates to 'Practice'. It contains a list of exercises related to signal processing.",
+  "main_message": "The slide outlines exercises for practicing signal classification, calculating energy and power of signals, performing basic operations on signals, and constructing complex signals from basic ones.",
+  "concepts": [
+    "Signal classification",
+    "Signal energy and power calculation",
+    "Time scaling and shifting",
+    "Complex signal construction"
+  ],
+  "definitions": [],
+  "formulas": [],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Luyện tập: Practice",
+    "Phân loại tín hiệu: Signal classification",
+    "Tính tổng năng lượng và công suất: Calculate total energy and power",
+    "Thực hiện các thao tác cơ bản: Perform basic operations",
+    "Xây dựng tín hiệu phức tạp: Construct complex signals"
+  ],
+  "embedding": [],
+  "image_objects": [],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0021.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "705fe185b6fedd873bc291b6c1d48454e30f19cdf51ec02cc1d48a6856110826",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

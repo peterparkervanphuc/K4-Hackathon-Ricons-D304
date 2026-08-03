@@ -5,7 +5,7 @@ from typing import List
 from fastapi import APIRouter, HTTPException
 
 import config
-import gemini
+import openai_client
 import prompts
 from grounding import (
     build_context,
@@ -119,18 +119,19 @@ def ask(session_id: str, body: AskRequest) -> AskResponse:
     ]
 
     try:
-        result = gemini.ask(
-            system_instruction=prompts.CHAT_SYSTEM,
+        result = openai_client.ask(
+            system_instruction=prompts.CHAT_SYSTEM + (prompts.CHAT_WEB_AUGMENT if body.use_web else ""),
             user_prompt=user_prompt,
             history=history,
             screenshots=[(s.page, s.data_url) for s in body.screenshots],
+            use_web=body.use_web,
         )
-    except gemini.GeminiError as exc:
-        status = 503 if "GEMINI_API_KEY" in str(exc) else 502
+    except openai_client.OpenAIServiceError as exc:
+        status = 503 if "OPENAI_API_KEY" in str(exc) else 502
         raise HTTPException(status_code=status, detail=str(exc)) from exc
 
     citations: List[Citation] = []
-    for citation in result.citations:
+    for citation in result.answer.citations:
         if citation.page not in allowed_pages:
             continue  # model cited a page it was never shown
         citations.append(
@@ -149,13 +150,14 @@ def ask(session_id: str, body: AskRequest) -> AskResponse:
     )
     message = session.add(
         "assistant",
-        result.answer.strip(),
+        result.answer.answer.strip(),
         citations=[c.model_dump() for c in citations],
-        grounded=result.grounded,
+        grounded=result.answer.grounded,
+        web_sources=[source.model_dump() for source in result.web_sources],
     )
 
     return AskResponse(
         session_id=session.id,
         message=ChatMessage(**message),
-        suggested_followups=[f.strip() for f in result.suggested_followups if f.strip()][:3],
+        suggested_followups=[f.strip() for f in result.answer.suggested_followups if f.strip()][:3],
     )

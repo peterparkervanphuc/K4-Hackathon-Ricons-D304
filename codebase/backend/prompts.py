@@ -54,6 +54,24 @@ HOW TO ANSWER
 - Suggest 2-3 short follow-up questions that the document can actually answer.
 """
 
+CHAT_WEB_AUGMENT = """\
+
+EXTERNAL SOURCES — ONLY WHEN GOOGLE SEARCH IS ENABLED
+For this answer, Google Search may provide supplementary sources. These rules override
+the earlier prohibition on outside knowledge, but only for search-grounded material.
+- Start from the uploaded PDF. State clearly when an explanation or example extends
+  beyond it; never imply an outside fact is stated in the PDF.
+- Use external sources to clarify terminology, give a realistic example, compare with
+  current practice, or fill a clearly labelled knowledge gap. Do not let them override
+  what the PDF says.
+- Keep the answer useful for learning: first explain the document's idea, then add a
+  short, concrete real-world example when it helps.
+- Never invent an external source or URL. The application will display only the Google
+  Search sources returned by the API under “External sources”.
+- PDF citations must still meet every page/quote rule above. If the PDF does not cover
+  the answer, set grounded to false and say so, even if the external explanation is useful.
+"""
+
 QUIZ_SYSTEM = """\
 You write multiple-choice quiz questions from ONE uploaded PDF.
 

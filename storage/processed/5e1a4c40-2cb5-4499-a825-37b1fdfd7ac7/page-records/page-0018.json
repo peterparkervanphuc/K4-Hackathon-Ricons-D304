@@ -1,0 +1,71 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 18,
+  "slide_number": 18,
+  "source_text": "Tín hiệu cơ bản (2)\n❑ Tín hiệu hình sin:  cos(   +  )\n❑ (Tín hiệu hàm mũ thực tế:    \n❑ (Complex) tín hiệu hàm mũ:   Ở đâu  =   +   .\n❑ Tại sao chúng ta cần tín hiệu cơ bản?\n➢ Mô hình hóa tín hiệu tự nhiên\n➢ Xây dựng các tín hiệu phức tạp hơn\n➢ Nhận dạng hệ thống",
+  "title": "Tín hiệu cơ bản (2)",
+  "vision_description": "The lecture page titled 'Tín hiệu cơ bản (2)' discusses basic signals, including sinusoidal and exponential signals, and their importance in modeling and system identification. The page includes text, formulas, and diagrams.",
+  "main_message": "Understanding basic signals like sinusoidal and exponential signals is crucial for modeling natural signals, building complex signals, and system identification.",
+  "concepts": [
+    "Sinusoidal signals",
+    "Exponential signals",
+    "Complex exponential signals",
+    "Signal modeling",
+    "System identification"
+  ],
+  "definitions": [
+    {
+      "term": "Tín hiệu hình sin",
+      "definition": "A sinusoidal signal represented by the formula cos( + )."
+    },
+    {
+      "term": "Tín hiệu hàm mũ",
+      "definition": "An exponential signal, including real and complex forms."
+    }
+  ],
+  "formulas": [
+    "cos( + )",
+    " =  + "
+  ],
+  "examples": [],
+  "tables": [],
+  "charts": [
+    {
+      "description": "A sinusoidal waveform chart illustrating the cos( + ) function.",
+      "position": "Below the text 'Tín hiệu hình sin: cos( + )'"
+    },
+    {
+      "description": "Two exponential waveform charts, one showing a decaying exponential and the other a growing exponential.",
+      "position": "Below the text '(Tín hiệu hàm mũ thực tế:'"
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Tín hiệu hình sin: Sinusoidal signal",
+    "Tín hiệu hàm mũ: Exponential signal",
+    "Mô hình hóa tín hiệu tự nhiên: Modeling natural signals",
+    "Xây dựng các tín hiệu phức tạp hơn: Building more complex signals",
+    "Nhận dạng hệ thống: System identification"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0018.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "56a5fee4d4fdb6a79bbf92d8a2b79f9deb9ef5a564cea1a2bd797d32a5570f54",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

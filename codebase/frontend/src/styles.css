@@ -818,6 +818,29 @@ textarea {
   color: var(--amber);
 }
 
+.web-sources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 9px;
+  font-size: 11.5px;
+}
+
+.web-sources > span {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.web-sources a {
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--blue-700);
+  text-decoration: underline;
+}
+
 .followups {
   display: flex;
   flex-direction: column;
@@ -855,6 +878,20 @@ textarea {
   border-top: 1px solid var(--line);
   padding: 10px 12px 12px;
   background: var(--surface);
+}
+
+.web-toggle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 9px;
+  color: var(--muted);
+  font-size: 11.5px;
+  cursor: pointer;
+}
+
+.web-toggle input {
+  accent-color: var(--blue-700);
 }
 
 .tray {

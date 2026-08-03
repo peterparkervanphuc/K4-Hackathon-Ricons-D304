@@ -5,7 +5,7 @@ from typing import List
 from fastapi import APIRouter, HTTPException
 
 import config
-import gemini
+import openai_client
 import prompts
 from grounding import build_context, quote_is_grounded
 from schemas import QuizQuestion, QuizRequest, QuizResponse
@@ -58,7 +58,7 @@ def generate_quiz(body: QuizRequest) -> QuizResponse:
     requested = min(body.num_questions + 2, 15)
 
     try:
-        result = gemini.quiz(
+        result = openai_client.quiz(
             system_instruction=prompts.QUIZ_SYSTEM,
             user_prompt=prompts.quiz_user_prompt(
                 context=context,
@@ -67,8 +67,8 @@ def generate_quiz(body: QuizRequest) -> QuizResponse:
                 language=body.language,
             ),
         )
-    except gemini.GeminiError as exc:
-        status = 503 if "GEMINI_API_KEY" in str(exc) else 502
+    except openai_client.OpenAIServiceError as exc:
+        status = 503 if "OPENAI_API_KEY" in str(exc) else 502
         raise HTTPException(status_code=status, detail=str(exc)) from exc
 
     questions: List[QuizQuestion] = []

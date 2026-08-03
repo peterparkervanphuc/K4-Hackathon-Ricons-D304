@@ -33,7 +33,7 @@ export default function App() {
   useEffect(() => {
     api
       .health()
-      .then((health) => setKeyMissing(!health.gemini_configured))
+      .then((health) => setKeyMissing(!health.openai_configured))
       .catch(() => setError('Cannot reach the API. Is the backend running on port 8000?'))
 
     api
@@ -189,7 +189,7 @@ export default function App() {
 
           {keyMissing && (
             <div className="banner banner-warn">
-              <strong>GEMINI_API_KEY is not set.</strong> Add it to
+              <strong>OPENAI_API_KEY is not set.</strong> Add it to
               <code> codebase/backend/.env</code> and restart the backend — the tutor and quiz need
               it.
             </div>

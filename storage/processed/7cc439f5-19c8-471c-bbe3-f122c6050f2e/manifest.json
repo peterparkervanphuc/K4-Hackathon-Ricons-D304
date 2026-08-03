@@ -1,0 +1,21 @@
+{
+  "source_sha256": "6e5dd4cdc40d8ccfc8b7c7d3e43cb64807ba4c2e154c48874f6a44e02f7feab2",
+  "original_name": "Chương 4.pptx",
+  "processing_version": "5.0-page-vision-openai",
+  "generation_provider": "openai",
+  "vision_model": "gpt-4o",
+  "embedding_provider": "openai",
+  "embedding_model": "text-embedding-3-small",
+  "provider_status": {
+    "generation_provider": "openai",
+    "generation_model": "gpt-4.1",
+    "vision_provider": "openai",
+    "vision_model": "gpt-4o",
+    "embedding_provider": "openai",
+    "embedding_model": "text-embedding-3-small",
+    "research_provider": "tavily",
+    "configured": true,
+    "openai_configured": true,
+    "groq_fallback_configured": true
+  }
+}

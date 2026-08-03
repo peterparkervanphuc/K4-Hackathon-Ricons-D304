@@ -1,0 +1,41 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 1,
+  "slide_number": 1,
+  "source_text": "Tín hiệu & Hệ thống ELT2035\nBài giảng 1: Giới thiệu\nHoàng Gia Hưng\nKhoa Điện tử Viễn thông Trường Đại học Công \nnghệ, Đại học Quốc gia Hà Nội\nTranslated from English to Vietnamese - www.onlinedoctranslator.com",
+  "title": "Tín hiệu & Hệ thống ELT2035",
+  "vision_description": "The page is a lecture slide titled 'Tín hiệu & Hệ thống ELT2035'. It includes the lecture number and introduction, along with the lecturer's name and affiliation.",
+  "main_message": "Introduction to the course 'Tín hiệu & Hệ thống ELT2035'.",
+  "concepts": [
+    "Tín hiệu (Signal)",
+    "Hệ thống (System)"
+  ],
+  "definitions": [],
+  "formulas": [],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Tín hiệu: Signal",
+    "Hệ thống: System",
+    "Giới thiệu: Introduction"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0001.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "dca90486d9ecaad152fd7245c800c591f29cdad170f4194b51801e957892a9c1",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

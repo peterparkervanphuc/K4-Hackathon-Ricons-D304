@@ -1,0 +1,74 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 10,
+  "slide_number": 10,
+  "source_text": "Các thao tác cơ bản trên tín hiệu\n❑ Một hệ thống thường được xây dựng bởikết hợpnhiều thao tác cơ bản trên \ntín hiệu đầu vào để thu được tín hiệu đầu ra mong muốn.\n➢ Các tín hiệu được xử lý bên trong một hệ thống như thế nào?\n❑ Các thao tác thực hiện trênsự phụ thuộcbiến:\n➢ tỉ lệ biên độ, cộng, nhân, phân biệt, tích phân.\n❑ Các thao tác được thực hiện trênđộc lậpBiến đổi:\n➢ Chia tỷ lệ thời gian, phản xạ, dịch chuyển thời gian",
+  "title": "Các thao tác cơ bản trên tín hiệu",
+  "vision_description": "The lecture page titled 'Các thao tác cơ bản trên tín hiệu' includes text, images, and arrows. The title is prominently displayed at the top. Below the title, there are images of waveforms and gears, connected by arrows, leading to a question mark image. Text is organized in bullet points, discussing signal processing operations.",
+  "main_message": "The page explains basic operations on signals, emphasizing how systems use these operations to process input signals into desired outputs.",
+  "concepts": [
+    "Signal processing",
+    "Amplitude scaling",
+    "Addition",
+    "Multiplication",
+    "Differentiation",
+    "Integration",
+    "Time scaling",
+    "Reflection",
+    "Time shifting"
+  ],
+  "definitions": [
+    "Amplitude scaling: Adjusting the amplitude of a signal.",
+    "Addition: Combining two signals.",
+    "Multiplication: Multiplying signals together.",
+    "Differentiation: Calculating the derivative of a signal.",
+    "Integration: Calculating the integral of a signal.",
+    "Time scaling: Changing the time scale of a signal.",
+    "Reflection: Flipping a signal over an axis.",
+    "Time shifting: Moving a signal in time."
+  ],
+  "formulas": [],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Amplitude scaling: tỉ lệ biên độ",
+    "Addition: cộng",
+    "Multiplication: nhân",
+    "Differentiation: phân biệt",
+    "Integration: tích phân",
+    "Time scaling: Chia tỷ lệ thời gian",
+    "Reflection: phản xạ",
+    "Time shifting: dịch chuyển thời gian"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 3,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 4,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0010.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "80c3a4be73fd47f8f9d5c0894f8310208802a6757977945cb1100fe809cd65a9",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

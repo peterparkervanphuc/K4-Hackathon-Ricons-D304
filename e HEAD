@@ -1,0 +1,30 @@
+[33mcommit 16df62cb2b02ef9762bd824af8a83a9ace55a49a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mday06[m[33m)[m
+Author: Nguyentrangntkt <trang9bdt1718@gmail.com>
+Date:   Fri Jul 31 23:21:45 2026 +0700
+
+    Update .env.example
+
+[1mdiff --git a/codebase/backend/.env.example b/codebase/backend/.env.example[m
+[1mindex be659fc..e69de29 100644[m
+[1m--- a/codebase/backend/.env.example[m
+[1m+++ b/codebase/backend/.env.example[m
+[36m@@ -1,19 +0,0 @@[m
+[31m-# PDF Tutor — Environment Variables[m
+[31m-# Copy this file to .env, then add your OpenAI API key. Never commit .env.[m
+[31m-OPENAI_API_KEY=[m
+[31m-# Optional: override the default model.[m
+[31m-OPENAI_MODEL=gpt-5.6-sol[m
+[31m-[m
+[31m-GEMINI_API_KEY=shasdhdhifhrf[m
+[31m-[m
+[31m-# Optional overrides[m
+[31m-GEMINI_MODEL=gemini-3.5-flash[m
+[31m-MAX_UPLOAD_MB=40[m
+[31m-FULL_DOC_CHAR_BUDGET=120000[m
+[31m-TOP_K_PAGES=6[m
+[31m-MAX_HISTORY_TURNS=8[m
+[31m-CORS_ORIGINS=http://localhost:5173,http://127.0.0.1:5173[m
+[31m-[m
+[31m-# Retry behaviour for model calls[m
+[31m-GEMINI_MAX_ATTEMPTS=3[m
+[31m-GEMINI_RETRY_BASE_DELAY=0.6[m

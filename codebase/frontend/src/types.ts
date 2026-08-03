@@ -22,6 +22,11 @@ export interface Citation {
   verified: boolean
 }
 
+export interface WebSource {
+  title: string
+  url: string
+}
+
 export interface ApiHighlight {
   page: number
   text: string
@@ -36,6 +41,7 @@ export interface ChatMessage {
   grounded: boolean
   highlights: ApiHighlight[]
   screenshot_count: number
+  web_sources: WebSource[]
 }
 
 export interface AskResponse {

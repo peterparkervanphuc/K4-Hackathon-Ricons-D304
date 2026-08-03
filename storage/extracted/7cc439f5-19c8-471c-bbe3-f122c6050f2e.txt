@@ -1,0 +1,64 @@
+Chương 4: Lý thuyết người tiêu dùng
+Phần 4: Thặng dư tiêu dùng và hạn chế của lý thuyết lợi ích.
+Nguyễn Thị Kiều Trang MSV 22022166
+Lê Hoàng Trung MSV 22022177Đào Quang Thái Dương MSV 20020006
+
+Mục lục
+Thặng dư tiêu dùng.
+
+Hạn chế của lý thuyết lợi ích.
+
+I. Thặng dư tiêu dùng
+Thặng dư tiêu dùng là gì ?
+ 
+Thặng dư tiêu dùng là phần chênh lệch giữa giá mà một người tiêu dùng  sẵn sàng trả để mua được một hàng hóa và giá mà người tiêu dùng đó thực sự phải  trả (giá thị trường) khi mua hàng hóa đó.
+
+Thặng dư tiêu dùng phản ánh sự chênh lệch giữa lợi ích của người tiêu 
+dùng một đơn vị hàng hóa nào đó với chi phí thực tế để có được lợi ích đó
+1. Khái niệm
+
+2. Công thức tính thặng dư tiêu dùng
+Công thức:  CS = MU – MC
+             Trong đó: 
+CS: Thặng dư tiêu dùng
+MU: Lợi ích cận biên
+MC: Chi phí cận biên
+
+Mối quan hệ giữa MU và MC với hành vi người tiêu dùng ta có:
+MU > MC => CS > 0; Người tiêu dùng nên tăng mức tiêu dùng. 
+MU < MC => CS < 0; Người tiêu dùng cần giảm mức tiêu dùng. 
+MU = MC => CS = 0; Người tiêu dùng cần dừng mức tiêu dùng để đạt lợi ích 
+là lớn nhất.
+
+3. Ví dụ
+Bài toán: Xem xét sự sẵn sàng thanh toán của người tiêu dùng A khi tiêu dùng sản phẩm bánh kem để hiểu rõ về cách xác định thặng dư tiêu dùng đối với mỗi cá nhân. Biết rằng giá 1 chiếc bánh kem trên thị trường là 10 nghìn đồng.
+
+=> Thặng dư tiêu dùng là phần diện tích của hình nằm phía trên đường giá và dưới đường cầu. Trong hình trên đó chính là diện tích tam giác AP0E.
+
+4. Ưu điểm của việc có thặng dư tiêu dùng và ứng dụng.
+Ưu điểm:
+Tăng cường an ninh tài chính: Dư thặng tiêu dùng cung cấp một dự trữ tài chính cho các tình huống khẩn cấp hoặc chi phí không mong đợi.
+Tạo điều kiện cho sự phát triển cá nhân: Dư thặng tiêu dùng cung cấp cơ hội cho việc phát triển cá nhân thông qua việc đầu tư vào bản thân hoặc giáo dục.
+
+
+Ứng dụng:
+Lập kế hoạch tài chính hàng tháng: Xác định và quản lý thu nhập, chi phí cố định và cần thiết để có được dư thặng tiêu dùng.
+Đặt mục tiêu tiết kiệm và đầu tư: Sử dụng dư thặng tiêu dùng để tiết kiệm hoặc đầu tư vào các mục tiêu dài hạn.
+
+II. Hạn chế của lý thuyết lợi ích.
+Khái niệm
+
+ Lý thuyết Lợi ích là một phương pháp phân tích trong kinh tế học và quản lý, giả định rằng con người hành động để tối đa hóa lợi ích của họ. 
+Tuy nhiên, như mọi lý thuyết, lý thuyết Lợi ích cũng có những hạn chế cần được xem xét.
+
+2. Những hạn chế
+Lợi ích là khái niệm chủ quan: Mỗi người có cái nhìn và đánh giá về lợi ích theo cách riêng của họ. 
+Giả định đo lường lợi ích bằng một hàm tiện ích là không chính xác vì trong thực tế, việc đo lường lợi ích gặp phải nhiều khó khăn và không chắc chắn.
+Quy luật lợi ích cận biên giảm dần là một hiện tượng tâm lý trong lĩnh vực kinh tế. Đối với một người tiêu dùng, khi họ tiêu thụ một lượng nhất định của một mặt hàng hoặc dịch vụ, mức độ hài lòng hoặc lợi ích mà họ nhận được từ mỗi đơn vị tiêu thụ tiếp theo sẽ giảm dần.
+Quy luật lợi ích giảm dần chỉ đúng trong thời gian ngắn. Trong thời gian dài, con người có khả năng thích ứng và làm quen với mức độ lợi ích từ một mặt hàng hoặc dịch vụ. Điều này có thể dẫn đến việc họ không cảm thấy giảm sút về lợi ích như mong đợi ban đầu, và thậm chí có thể cảm thấy tăng lên do việc hiểu biết sâu hơn về sản phẩm, sự thích nghi, hoặc những trải nghiệm tích lũy từ việc sử dụng.
+
+3. Kết luận
+Lý thuyết Lợi ích đóng góp quan trọng vào việc hiểu hành vi tiêu dùng và ra quyết định, nhưng cũng gặp phải những hạn chế đáng chú ý.
+Hiểu và nhận biết các hạn chế này giúp chúng ta sử dụng lý thuyết Lợi ích một cách hiệu quả hơn và kết hợp nó với các phương pháp phân tích khác để có cái nhìn toàn diện hơn về hành vi tiêu dùng và quyết định kinh doanh.
+
+Cảm ơn các bạn và cô giác đã lắng nghe

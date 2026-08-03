@@ -42,7 +42,7 @@ function json(body: unknown): RequestInit {
 
 export const api = {
   health: () =>
-    request<{ status: string; gemini_configured: boolean; model: string; documents: number }>(
+    request<{ status: string; openai_configured: boolean; model: string; documents: number }>(
       '/api/health',
     ),
 
@@ -68,6 +68,7 @@ export const api = {
       page: number | null
       highlights: { page: number; text: string }[]
       screenshots: { page: number; data_url: string }[]
+      use_web: boolean
     },
   ) => request<AskResponse>(`/api/chat/sessions/${sessionId}/ask`, json(payload)),
 

@@ -1,0 +1,146 @@
+{
+  "passed": 14,
+  "failed": 0,
+  "skipped": 0,
+  "total": 14,
+  "results": [
+    {
+      "name": "page parser: Trang 5 viết gì?",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "exact_page_question",
+        "pages": [
+          5
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: Trang n-4 nói về gì?",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "exact_page_question",
+        "pages": [
+          4
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: Trang tiếp theo có ví dụ nào?",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "exact_page_question",
+        "pages": [
+          5
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: Ba trang tiếp theo",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "page_range_question",
+        "pages": [
+          5,
+          6,
+          7
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: Từ trang 5 đến trang 9",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "page_range_question",
+        "pages": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "page parser: So sánh trang 3 và trang 9",
+      "passed": true,
+      "skipped": false,
+      "detail": {
+        "route": "comparison_question",
+        "pages": [
+          3,
+          9
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "OpenAI missing -> Groq fallback",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "Both keys missing -> clear configuration error",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "PPTX PageRecord coverage",
+      "passed": true,
+      "skipped": false,
+      "detail": 10
+    },
+    {
+      "name": "PageRecord schema",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "No fake generic relations",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "LessonMap covers all pages once",
+      "passed": true,
+      "skipped": false,
+      "detail": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Embedding cache exists",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    },
+    {
+      "name": "Original source hash unchanged",
+      "passed": true,
+      "skipped": false,
+      "detail": null
+    }
+  ]
+}

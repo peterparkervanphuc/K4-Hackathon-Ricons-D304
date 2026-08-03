@@ -1,0 +1,46 @@
+{
+  "document_id": "7cc439f5-19c8-471c-bbe3-f122c6050f2e",
+  "page": 8,
+  "slide_number": 8,
+  "source_text": "2. Những hạn chế\nLợi ích là khái niệm chủ quan: Mỗi người có cái nhìn và đánh giá về lợi ích theo cách riêng của họ. \nGiả định đo lường lợi ích bằng một hàm tiện ích là không chính xác vì trong thực tế, việc đo lường lợi ích gặp phải nhiều khó khăn và không chắc chắn.\nQuy luật lợi ích cận biên giảm dần là một hiện tượng tâm lý trong lĩnh vực kinh tế. Đối với một người tiêu dùng, khi họ tiêu thụ một lượng nhất định của một mặt hàng hoặc dịch vụ, mức độ hài lòng hoặc lợi ích mà họ nhận được từ mỗi đơn vị tiêu thụ tiếp theo sẽ giảm dần.\nQuy luật lợi ích giảm dần chỉ đúng trong thời gian ngắn. Trong thời gian dài, con người có khả năng thích ứng và làm quen với mức độ lợi ích từ một mặt hàng hoặc dịch vụ. Điều này có thể dẫn đến việc họ không cảm thấy giảm sút về lợi ích như mong đợi ban đầu, và thậm chí có thể cảm thấy tăng lên do việc hiểu biết sâu hơn về sản phẩm, sự thích nghi, hoặc những trải nghiệm tích lũy từ việc sử dụng.",
+  "title": "2. Những hạn chế",
+  "vision_description": "The page is a lecture slide with a title and several paragraphs of text. The title is at the top, followed by a horizontal line, and the text is organized in paragraphs below.",
+  "main_message": "The limitations of measuring utility and the diminishing marginal utility in economics.",
+  "concepts": [
+    "Subjective nature of utility",
+    "Challenges in measuring utility",
+    "Diminishing marginal utility",
+    "Adaptation over time"
+  ],
+  "definitions": [
+    {
+      "term": "Lợi ích",
+      "definition": "Khái niệm chủ quan: Mỗi người có cái nhìn và đánh giá về lợi ích theo cách riêng của họ."
+    },
+    {
+      "term": "Quy luật lợi ích cận biên giảm dần",
+      "definition": "Một hiện tượng tâm lý trong lĩnh vực kinh tế, khi mức độ hài lòng hoặc lợi ích từ mỗi đơn vị tiêu thụ tiếp theo sẽ giảm dần."
+    }
+  ],
+  "formulas": [],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Lợi ích: Utility",
+    "Quy luật lợi ích cận biên giảm dần: Diminishing marginal utility"
+  ],
+  "embedding": [],
+  "image_objects": [],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\7cc439f5-19c8-471c-bbe3-f122c6050f2e\\renders\\page-0008.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "905efb02d5b228fdf21fa3484cccf2b56d9f581fb626ef040222c87a49fb5f45",
+  "original_name": "Chương 4.pptx"
+}

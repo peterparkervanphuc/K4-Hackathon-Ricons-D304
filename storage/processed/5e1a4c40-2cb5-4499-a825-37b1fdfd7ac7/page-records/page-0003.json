@@ -1,0 +1,43 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 3,
+  "slide_number": 3,
+  "source_text": "Tổng quan khóa học (2)\n❑ Giảng viên\n➢ Hoàng Gia Hưng, Phòng bầu cử Comp. Anh. (R702, nhà E3, 144 Xuân \nThủy)\n➢ Tư vấn dựa trên cuộc hẹn\n❑ Sách giáo khoa: S. Haykin và B. Van Veen, “Tín hiệu và Hệ thống”, tái bản \nlần thứ 2, Wiley, 2005.\n❑ Chấm điểm:\n➢ Câu hỏi/bài luận: 15%\n➢ Giữa kỳ: 25%\n➢ Cuối cùng: 60%\n❑ Một số quy tắc cơ bản:\n➢ Sự tôn trọng\n➢ chủ động\n➢ Đúng giờ",
+  "title": "Tổng quan khóa học (2)",
+  "vision_description": "The page is a structured lecture overview with a title at the top, followed by bullet points detailing the instructor, textbook, grading criteria, and basic rules.",
+  "main_message": "The page provides an overview of the course, including instructor details, textbook information, grading breakdown, and basic rules.",
+  "concepts": [
+    "Course Overview",
+    "Instructor Information",
+    "Textbook",
+    "Grading Criteria",
+    "Basic Rules"
+  ],
+  "definitions": [],
+  "formulas": [],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Giảng viên: Instructor",
+    "Sách giáo khoa: Textbook",
+    "Chấm điểm: Grading",
+    "Một số quy tắc cơ bản: Basic Rules",
+    "Câu hỏi/bài luận: Questions/Essays",
+    "Giữa kỳ: Midterm",
+    "Cuối cùng: Final"
+  ],
+  "embedding": [],
+  "image_objects": [],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0003.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "cf601128927b189294891085f4a95e44c0fcba85197f980ab080dc98bfede4da",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

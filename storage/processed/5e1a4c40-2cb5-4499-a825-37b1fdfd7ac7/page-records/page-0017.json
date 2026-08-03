@@ -1,0 +1,78 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 17,
+  "slide_number": 17,
+  "source_text": "Tín hiệu cơ bản (1)\n1,   ≥ 0\n0,   < 0❑ Tín hiệu bước đơn vị: ( ) = ቊ\n❑ Tín hiệu xung đơn vị (còn gọi là hàm delta Dirac):    = 0 ∀  ≠ 0\nVà∞        = 1.Thông báo rằng   làkhông xác định Tại  = 0.− ∞\n❑ Tín hiệu đường dốc đơn vị:  ( )",
+  "title": "Tín hiệu cơ bản (1)",
+  "vision_description": "The lecture page titled 'Tín hiệu cơ bản (1)' presents basic signal concepts with text, formulas, and diagrams. It includes descriptions of unit step, unit impulse (Dirac delta function), and unit ramp signals.",
+  "main_message": "Introduction to basic signals: unit step, unit impulse, and unit ramp.",
+  "concepts": [
+    "Unit Step Signal",
+    "Unit Impulse Signal",
+    "Unit Ramp Signal"
+  ],
+  "definitions": [
+    "Unit Step Signal: A signal that is 1 for t ≥ 0 and 0 for t < 0.",
+    "Unit Impulse Signal: Also known as the Dirac delta function, it is 0 for all t ≠ 0 and undefined at t = 0.",
+    "Unit Ramp Signal: A signal with a constant slope starting from the origin."
+  ],
+  "formulas": [
+    "Unit Step: 1, t ≥ 0; 0, t < 0",
+    "Unit Impulse: δ(t) = 0 ∀ t ≠ 0; undefined at t = 0"
+  ],
+  "examples": [],
+  "tables": [],
+  "charts": [
+    {
+      "type": "diagram",
+      "description": "Graph of unit step function showing a step at t = 0.",
+      "spatial_relationship": "Top right of the page."
+    },
+    {
+      "type": "diagram",
+      "description": "Graph of unit impulse function with a spike at t = 0.",
+      "spatial_relationship": "Middle right of the page."
+    },
+    {
+      "type": "diagram",
+      "description": "Graph of unit ramp function showing a linear increase from the origin.",
+      "spatial_relationship": "Bottom right of the page."
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Unit Step Signal: Tín hiệu bước đơn vị",
+    "Unit Impulse Signal: Tín hiệu xung đơn vị",
+    "Dirac Delta Function: hàm delta Dirac",
+    "Unit Ramp Signal: Tín hiệu đường dốc đơn vị"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 3,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 4,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0017.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "a4fc0ac86b210950a6f459d0d23df3dcdee48864e3d6cf7f946ff94708c38d93",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

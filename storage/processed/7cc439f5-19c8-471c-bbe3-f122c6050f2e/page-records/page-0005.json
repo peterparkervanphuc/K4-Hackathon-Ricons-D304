@@ -1,0 +1,73 @@
+{
+  "document_id": "7cc439f5-19c8-471c-bbe3-f122c6050f2e",
+  "page": 5,
+  "slide_number": 5,
+  "source_text": "3. Ví dụ\nBài toán: Xem xét sự sẵn sàng thanh toán của người tiêu dùng A khi tiêu dùng sản phẩm bánh kem để hiểu rõ về cách xác định thặng dư tiêu dùng đối với mỗi cá nhân. Biết rằng giá 1 chiếc bánh kem trên thị trường là 10 nghìn đồng.\n=> Thặng dư tiêu dùng là phần diện tích của hình nằm phía trên đường giá và dưới đường cầu. Trong hình trên đó chính là diện tích tam giác AP0E.",
+  "title": "3. Ví dụ",
+  "vision_description": "The page contains a title, a problem statement, a diagram, a table, and a formula. The diagram illustrates consumer surplus with a demand curve and price line. The table lists quantities of cakes, willingness to pay, market price, and consumer surplus.",
+  "main_message": "The example explains how to determine consumer surplus for an individual using a demand curve and market price.",
+  "concepts": [
+    "Consumer Surplus",
+    "Demand Curve",
+    "Market Price"
+  ],
+  "definitions": [
+    "Consumer Surplus: The area above the price line and below the demand curve, represented by the triangle AP0E."
+  ],
+  "formulas": [
+    "Consumer surplus is the area above the price line and below the demand curve, specifically the area of triangle AP0E."
+  ],
+  "examples": [
+    "The problem considers consumer A's willingness to pay for cakes to understand consumer surplus."
+  ],
+  "tables": [],
+  "charts": [
+    {
+      "type": "Diagram",
+      "description": "A graph with a demand curve labeled MU, P, and a price line at P0. The area of interest is triangle AP0E."
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Consumer Surplus: Thặng dư tiêu dùng",
+    "Demand Curve: Đường cầu",
+    "Market Price: Giá thị trường"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "name": "Image1",
+      "shape_type": "PICTURE (13)",
+      "left": 5858290,
+      "top": 2061751,
+      "width": 5657850,
+      "height": 1590675
+    },
+    {
+      "name": "Image2",
+      "shape_type": "PICTURE (13)",
+      "left": 5848765,
+      "top": 3603531,
+      "width": 5667375,
+      "height": 1343025
+    },
+    {
+      "name": "Image3",
+      "shape_type": "PICTURE (13)",
+      "left": 1280491,
+      "top": 2101477,
+      "width": 4114800,
+      "height": 2362200
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\7cc439f5-19c8-471c-bbe3-f122c6050f2e\\renders\\page-0005.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "10190a4b04dfcc33abe936af409b09a8b17a510bb5a629d70f2de9b012940abf",
+  "original_name": "Chương 4.pptx"
+}

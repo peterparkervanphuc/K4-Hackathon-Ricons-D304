@@ -1,0 +1,130 @@
+{"kind":"deck","id":"pr/iv0m1w","name":"Deck"}
+{"kind":"layout","layoutId":"73df7541-19d6-4778-aa92-69ae69e020d1","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"822586d0-2ca4-447b-a49b-a298aeed5029","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/0icroq","slide":1,"title":"01  /  06","textShapes":13}
+{"kind":"textbox","id":"sh/kne98ryt","slide":1,"text":"01  /  06","textPreview":"01  /  06","textChars":9,"textLines":1,"bbox":[62,42,150,24]}
+{"kind":"textbox","id":"sh/jm58zmh8","slide":1,"text":"Người dùng bị kẹt ở bước thực thi, không phải ở ý định","textPreview":"Người dùng bị kẹt ở bước thực thi, không phải ở ý định","textChars":54,"textLines":1,"bbox":[62,77,1080,58]}
+{"kind":"textbox","id":"sh/ylw761g3","slide":1,"text":"45 giây · Nêu một job rõ ràng, có pain định lượng và nguồn kiểm chứng","textPreview":"45 giây · Nêu một job rõ ràng, có pain định lượng và nguồn kiểm chứng","textChars":69,"textLines":1,"bbox":[62,140,1060,26]}
+{"kind":"shape","id":"sh/tc7q5gzq","slide":1,"bbox":[62,178,1156,2]}
+{"kind":"textbox","id":"sh/8by9cby5","slide":1,"text":"CORE JTBD","textPreview":"CORE JTBD","textChars":9,"textLines":1,"bbox":[62,214,280,24]}
+{"kind":"textbox","id":"sh/7q5836hk","slide":1,"text":"“Khi [tình huống], tôi muốn [hành động] để [kết quả đo được].”","textPreview":"“Khi [tình huống], tôi muốn [hành động] để [kết quả đo được].”","textChars":62,"textLines":1,"bbox":[62,248,610,86]}
+{"kind":"shape","id":"sh/6pwra1gz","slide":1,"bbox":[62,380,590,200]}
+{"kind":"textbox","id":"sh/hg7q9gzm","slide":1,"text":"Job executor","textPreview":"Job executor","textChars":12,"textLines":1,"bbox":[82,398,550,30]}
+{"kind":"textbox","id":"sh/gfy9gby1","slide":1,"text":"[Vai trò cụ thể] · [bối cảnh] · [tần suất]\nKhông dùng persona chung chung.","textPreview":"[Vai trò cụ thể] · [bối cảnh] · [tần suất] | Không dùng persona chung chung.","textChars":74,"textLines":2,"bbox":[82,438,550,124]}
+{"kind":"shape","id":"sh/6tcfu1wv","slide":1,"bbox":[704,215,430,106]}
+{"kind":"textbox","id":"sh/7ulw36dg","slide":1,"text":"41 / 200 hội thoại","textPreview":"41 / 200 hội thoại","textChars":18,"textLines":1,"bbox":[722,229,394,47]}
+{"kind":"textbox","id":"sh/8vuxwbe1","slide":1,"text":"Pain signal — gắn link log / dashboard / ngày đo","textPreview":"Pain signal — gắn link log / dashboard / ngày đo","textChars":48,"textLines":1,"bbox":[722,281,394,24]}
+{"kind":"shape","id":"sh/tw3e5gvm","slide":1,"bbox":[704,350,430,106]}
+{"kind":"textbox","id":"sh/uxcfylw7","slide":1,"text":"17 / 25 người khảo sát","textPreview":"17 / 25 người khảo sát","textChars":22,"textLines":1,"bbox":[722,364,394,47]}
+{"kind":"textbox","id":"sh/vylw7qds","slide":1,"text":"Validation signal — gắn form / script phỏng vấn","textPreview":"Validation signal — gắn form / script phỏng vấn","textChars":47,"textLines":1,"bbox":[722,416,394,24]}
+{"kind":"textbox","id":"sh/gzux0vex","slide":1,"text":"Chỉ giữ số đã truy xuất được. Nếu chưa có nguồn, thay bằng [ĐIỀN BẰNG CHỨNG].","textPreview":"Chỉ giữ số đã truy xuất được. Nếu chưa có nguồn, thay bằng [ĐIỀN BẰNG CHỨNG].","textChars":77,"textLines":1,"bbox":[62,675,1090,20]}
+{"kind":"textbox","id":"sh/hkne9gvi","slide":1,"text":"Demo round · 5 min + Q&A","textPreview":"Demo round · 5 min + Q&A","textChars":24,"textLines":1,"bbox":[1008,675,210,20]}
+{"kind":"notes","id":"nt/0icroq","slide":1,"text":""}
+{"kind":"slide","id":"sl/xjsoou","slide":2,"title":"02  /  06","textShapes":19}
+{"kind":"textbox","id":"sh/itg72l0f","slide":2,"text":"02  /  06","textPreview":"02  /  06","textChars":9,"textLines":1,"bbox":[62,42,150,24]}
+{"kind":"textbox","id":"sh/5w7qx0z6","slide":2,"text":"Chọn tính năng vì tác động đã được so sánh, không vì “ý tưởng đầu tiên”","textPreview":"Chọn tính năng vì tác động đã được so sánh, không vì “ý tưởng đầu tiên”","textChars":71,"textLines":1,"bbox":[62,77,1080,58]}
+{"kind":"textbox","id":"sh/4vyp4vil","slide":2,"text":"45 giây · Hiển thị trade-off và một ứng viên bị loại","textPreview":"45 giây · Hiển thị trade-off và một ứng viên bị loại","textChars":52,"textLines":1,"bbox":[62,140,1060,26]}
+{"kind":"shape","id":"sh/ryp8zahw","slide":2,"bbox":[62,178,1156,2]}
+{"kind":"textbox","id":"sh/qxg7650b","slide":2,"text":"ỨNG VIÊN","textPreview":"ỨNG VIÊN","textChars":8,"textLines":1,"bbox":[74,220,270,24]}
+{"kind":"textbox","id":"sh/d0rq1kz2","slide":2,"text":"IMPACT","textPreview":"IMPACT","textChars":6,"textLines":1,"bbox":[640,220,150,24]}
+{"kind":"textbox","id":"sh/szyp8fih","slide":2,"text":"QUYẾT ĐỊNH","textPreview":"QUYẾT ĐỊNH","textChars":10,"textLines":1,"bbox":[930,220,190,24]}
+{"kind":"shape","id":"sh/725on6hs","slide":2,"bbox":[62,260,1090,74]}
+{"kind":"textbox","id":"sh/61w7u107","slide":2,"text":"A. [Tính năng được chọn]","textPreview":"A. [Tính năng được chọn]","textChars":24,"textLines":1,"bbox":[78,278,490,34]}
+{"kind":"textbox","id":"sh/ofqxknit","slide":2,"text":"[x%] / [n] evidence","textPreview":"[x%] / [n] evidence","textChars":19,"textLines":1,"bbox":[640,278,220,34]}
+{"kind":"textbox","id":"sh/pgzydsze","slide":2,"text":"CHỌN — giải pain lõi","textPreview":"CHỌN — giải pain lõi","textChars":20,"textLines":1,"bbox":[930,278,205,34]}
+{"kind":"shape","id":"sh/2dofix0n","slide":2,"bbox":[62,354,1090,74]}
+{"kind":"textbox","id":"sh/nexwbih8","slide":2,"text":"B. [Ứng viên 2]","textPreview":"B. [Ứng viên 2]","textChars":15,"textLines":1,"bbox":[78,372,490,34]}
+{"kind":"textbox","id":"sh/cjqxo7ip","slide":2,"text":"[x%] / [n] evidence","textPreview":"[x%] / [n] evidence","textChars":19,"textLines":1,"bbox":[640,372,220,34]}
+{"kind":"textbox","id":"sh/xkzyhcza","slide":2,"text":"Loại — [lý do 1 dòng]","textPreview":"Loại — [lý do 1 dòng]","textChars":21,"textLines":1,"bbox":[930,372,205,34]}
+{"kind":"shape","id":"sh/ah8fmx0z","slide":2,"bbox":[62,448,1090,74]}
+{"kind":"textbox","id":"sh/bihgf2hk","slide":2,"text":"C. [Ứng viên 3]","textPreview":"C. [Ứng viên 3]","textChars":15,"textLines":1,"bbox":[78,466,490,34]}
+{"kind":"textbox","id":"sh/sn6xc3il","slide":2,"text":"[x%] / [n] evidence","textPreview":"[x%] / [n] evidence","textChars":19,"textLines":1,"bbox":[640,466,220,34]}
+{"kind":"textbox","id":"sh/dofe58z6","slide":2,"text":"Loại — [lý do 1 dòng]","textPreview":"Loại — [lý do 1 dòng]","textChars":21,"textLines":1,"bbox":[930,466,205,34]}
+{"kind":"shape","id":"sh/9snmt07y","slide":2,"bbox":[62,574,500,106]}
+{"kind":"textbox","id":"sh/8relkf6d","slide":2,"text":"[ĐIỀN 1 số quyết định]","textPreview":"[ĐIỀN 1 số quyết định]","textChars":22,"textLines":1,"bbox":[80,588,464,47]}
+{"kind":"textbox","id":"sh/7654raps","slide":2,"text":"Metric / quote khiến A thắng — phải truy xuất được","textPreview":"Metric / quote khiến A thắng — phải truy xuất được","textChars":50,"textLines":1,"bbox":[80,640,464,24]}
+{"kind":"textbox","id":"sh/m5c3i5o7","slide":2,"text":"Nguồn: research log, clickstream, interview notes hoặc test result.","textPreview":"Nguồn: research log, clickstream, interview notes hoặc test result.","textChars":67,"textLines":1,"bbox":[62,675,1090,20]}
+{"kind":"textbox","id":"sh/hwnmxknu","slide":2,"text":"Demo round · 5 min + Q&A","textPreview":"Demo round · 5 min + Q&A","textChars":24,"textLines":1,"bbox":[1008,675,210,20]}
+{"kind":"notes","id":"nt/xjsoou","slide":2,"text":""}
+{"kind":"slide","id":"sl/iwrz63","slide":3,"title":"03  /  06","textShapes":15}
+{"kind":"textbox","id":"sh/nyxcrup4","slide":3,"text":"03  /  06","textPreview":"03  /  06","textChars":9,"textLines":1,"bbox":[62,42,150,24]}
+{"kind":"textbox","id":"sh/oz6t0f69","slide":3,"text":"Lát cắt nhỏ: một automation, hai case, một chất lượng có thể kiểm tra","textPreview":"Lát cắt nhỏ: một automation, hai case, một chất lượng có thể kiểm tra","textChars":69,"textLines":1,"bbox":[62,77,1080,58]}
+{"kind":"textbox","id":"sh/p0futk7u","slide":3,"text":"2 phút · Demo live; case khó phải cho thấy hệ thống xử lý lỗi","textPreview":"2 phút · Demo live; case khó phải cho thấy hệ thống xử lý lỗi","textChars":61,"textLines":1,"bbox":[62,140,1060,26]}
+{"kind":"shape","id":"sh/et4bu5o7","slide":3,"bbox":[62,178,1156,2]}
+{"kind":"textbox","id":"sh/fudcnaps","slide":3,"text":"LÁT CẮT 1 CÂU","textPreview":"LÁT CẮT 1 CÂU","textChars":13,"textLines":1,"bbox":[62,212,260,22]}
+{"kind":"textbox","id":"sh/0vmtwf6d","slide":3,"text":"[Người dùng] hoàn thành [job] trong [bước/kết quả] — không cần [công việc thủ công].","textPreview":"[Người dùng] hoàn thành [job] trong [bước/kết quả] — không cần [công việc thủ công].","textChars":84,"textLines":1,"bbox":[62,242,1090,52]}
+{"kind":"shape","id":"sh/1wvupk7y","slide":3,"bbox":[62,338,336,204]}
+{"kind":"textbox","id":"sh/yp8b69or","slide":3,"text":"1. Case chuẩn","textPreview":"1. Case chuẩn","textChars":13,"textLines":1,"bbox":[82,356,296,30]}
+{"kind":"textbox","id":"sh/zqhczepw","slide":3,"text":"Input: [case happy path]\nDemo: [hành động 1–2]\nExpected: [kết quả đo được]","textPreview":"Input: [case happy path] | Demo: [hành động 1–2] | Expected: [kết quả đo được]","textChars":74,"textLines":3,"bbox":[82,396,296,128]}
+{"kind":"shape","id":"sh/jq9sjad0","slide":3,"bbox":[434,338,336,204]}
+{"kind":"textbox","id":"sh/ip0bq5cf","slide":3,"text":"2. Case khó","textPreview":"2. Case khó","textChars":11,"textLines":1,"bbox":[454,356,296,30]}
+{"kind":"textbox","id":"sh/5srulkv6","slide":3,"text":"Input: [edge case / dữ liệu lỗi]\nDemo: [fallback / guardrail]\nExpected: [hệ thống nói/ làm gì]","textPreview":"Input: [edge case / dữ liệu lỗi] | Demo: [fallback / guardrail] | Expected: [hệ thống nói/ làm gì]","textChars":94,"textLines":3,"bbox":[454,396,296,128]}
+{"kind":"shape","id":"sh/kritsful","slide":3,"bbox":[806,338,336,204]}
+{"kind":"textbox","id":"sh/7etcnadc","slide":3,"text":"Cost of error","textPreview":"Cost of error","textChars":13,"textLines":1,"bbox":[826,356,296,30]}
+{"kind":"textbox","id":"sh/6t0bupcr","slide":3,"text":"Nếu sai: [hậu quả cụ thể]\nGuardrail: [cách chặn / giải thích / retry]","textPreview":"Nếu sai: [hậu quả cụ thể] | Guardrail: [cách chặn / giải thích / retry]","textChars":69,"textLines":2,"bbox":[826,396,296,128]}
+{"kind":"shape","id":"sh/tgbupkv2","slide":3,"bbox":[62,574,680,106]}
+{"kind":"textbox","id":"sh/sf2twfuh","slide":3,"text":"[ĐIỀN quality bar 23:59 N1]","textPreview":"[ĐIỀN quality bar 23:59 N1]","textChars":27,"textLines":1,"bbox":[80,588,644,47]}
+{"kind":"textbox","id":"sh/fitcrud8","slide":3,"text":"Ví dụ: pass ≥ __ / __ golden set · latency ≤ __","textPreview":"Ví dụ: pass ≥ __ / __ golden set · latency ≤ __","textChars":47,"textLines":1,"bbox":[80,640,644,24]}
+{"kind":"textbox","id":"sh/uhkbypcn","slide":3,"text":"Không thay live demo bằng video khi app vẫn chạy được.","textPreview":"Không thay live demo bằng video khi app vẫn chạy được.","textChars":54,"textLines":1,"bbox":[62,675,1090,20]}
+{"kind":"textbox","id":"sh/qdovqtwv","slide":3,"text":"Demo round · 5 min + Q&A","textPreview":"Demo round · 5 min + Q&A","textChars":24,"textLines":1,"bbox":[1008,675,210,20]}
+{"kind":"notes","id":"nt/iwrz63","slide":3,"text":""}
+{"kind":"slide","id":"sl/2sfjsi","slide":4,"title":"04  /  06","textShapes":11}
+{"kind":"textbox","id":"sh/rmtg72xc","slide":4,"text":"04  /  06","textPreview":"04  /  06","textChars":9,"textLines":1,"bbox":[62,42,150,24]}
+{"kind":"textbox","id":"sh/sn2x07ex","slide":4,"text":"Kết quả được đọc cùng quality bar — và failure lớn nhất không bị che đi","textPreview":"Kết quả được đọc cùng quality bar — và failure lớn nhất không bị che đi","textChars":71,"textLines":1,"bbox":[62,77,1080,58]}
+{"kind":"textbox","id":"sh/toby9cfi","slide":4,"text":"45 giây · Nếu chưa đạt, nêu nguyên nhân thay vì chỉ chọn số đẹp","textPreview":"45 giây · Nếu chưa đạt, nêu nguyên nhân thay vì chỉ chọn số đẹp","textChars":63,"textLines":1,"bbox":[62,140,1060,26]}
+{"kind":"shape","id":"sh/ix0fuxwv","slide":4,"bbox":[62,178,1156,2]}
+{"kind":"shape","id":"sh/jytg32x0","slide":4,"bbox":[62,220,448,106]}
+{"kind":"textbox","id":"sh/4j2xw7el","slide":4,"text":"[__%] qua golden set","textPreview":"[__%] qua golden set","textChars":20,"textLines":1,"bbox":[80,234,412,47]}
+{"kind":"textbox","id":"sh/5kby5sf6","slide":4,"text":"Đối chiếu trực tiếp với quality bar đã chốt 23:59 N1","textPreview":"Đối chiếu trực tiếp với quality bar đã chốt 23:59 N1","textChars":52,"textLines":1,"bbox":[80,286,412,24]}
+{"kind":"shape","id":"sh/ut0fqdwj","slide":4,"bbox":[548,220,604,146]}
+{"kind":"textbox","id":"sh/vu9wzix4","slide":4,"text":"Quality bar đã cam kết","textPreview":"Quality bar đã cam kết","textChars":22,"textLines":1,"bbox":[568,238,564,30]}
+{"kind":"textbox","id":"sh/zadsnm5c","slide":4,"text":"Target: [__ / __] · Actual: [__ / __]\nMethod: [link golden set / evaluator / thời điểm đo]","textPreview":"Target: [__ / __] · Actual: [__ / __] | Method: [link golden set / evaluator / thời điểm đo]","textChars":90,"textLines":2,"bbox":[568,278,564,70]}
+{"kind":"shape","id":"sh/y94beh4r","slide":4,"bbox":[62,410,1090,176]}
+{"kind":"textbox","id":"sh/lcfapwni","slide":4,"text":"Failure đáng kể nhất","textPreview":"Failure đáng kể nhất","textChars":20,"textLines":1,"bbox":[84,430,300,30]}
+{"kind":"textbox","id":"sh/0b6tgrmx","slide":4,"text":"[Case lỗi] → [điều đã xảy ra] → [nguyên nhân giả thuyết] → [bằng chứng / log]","textPreview":"[Case lỗi] → [điều đã xảy ra] → [nguyên nhân giả thuyết] → [bằng chứng / log]","textChars":77,"textLines":1,"bbox":[84,474,1010,64]}
+{"kind":"textbox","id":"sh/nexsr65o","slide":4,"text":"Một failure thật tăng độ tin cậy hơn “100%” không có cách đo.","textPreview":"Một failure thật tăng độ tin cậy hơn “100%” không có cách đo.","textChars":61,"textLines":1,"bbox":[62,675,1090,20]}
+{"kind":"textbox","id":"sh/mdobi143","slide":4,"text":"Demo round · 5 min + Q&A","textPreview":"Demo round · 5 min + Q&A","textChars":24,"textLines":1,"bbox":[1008,675,210,20]}
+{"kind":"notes","id":"nt/2sfjsi","slide":4,"text":""}
+{"kind":"slide","id":"sl/yl3nm8","slide":5,"title":"05  /  06","textShapes":13}
+{"kind":"textbox","id":"sh/t47290vi","slide":5,"text":"05  /  06","textPreview":"05  /  06","textChars":9,"textLines":1,"bbox":[62,42,150,24]}
+{"kind":"textbox","id":"sh/m1g3ylwr","slide":5,"text":"Người dùng thật chỉ ra phần cần sửa — và chúng tôi đã sửa điều gì","textPreview":"Người dùng thật chỉ ra phần cần sửa — và chúng tôi đã sửa điều gì","textChars":65,"textLines":1,"bbox":[62,77,1080,58]}
+{"kind":"textbox","id":"sh/72pk7qdc","slide":5,"text":"45 giây · Dùng nguyên văn quote, nêu rõ tên/vai và thay đổi sau validation","textPreview":"45 giây · Dùng nguyên văn quote, nêu rõ tên/vai và thay đổi sau validation","textChars":74,"textLines":1,"bbox":[62,140,1060,26]}
+{"kind":"shape","id":"sh/kfylwbe1","slide":5,"bbox":[62,178,1156,2]}
+{"kind":"shape","id":"sh/l0725gvm","slide":5,"bbox":[62,218,520,168]}
+{"kind":"textbox","id":"sh/ydw3u1wv","slide":5,"text":"“[Quote nguyên văn #1]”","textPreview":"“[Quote nguyên văn #1]”","textChars":23,"textLines":1,"bbox":[82,236,480,30]}
+{"kind":"textbox","id":"sh/ze5k36dg","slide":5,"text":"— [Tên], [vai trò] · [ngày / phương thức validation]","textPreview":"— [Tên], [vai trò] · [ngày / phương thức validation]","textChars":52,"textLines":1,"bbox":[82,276,480,92]}
+{"kind":"shape","id":"sh/4vil8fe5","slide":5,"bbox":[636,218,520,168]}
+{"kind":"textbox","id":"sh/5wrm1kvq","slide":5,"text":"“[Quote nguyên văn #2]”","textPreview":"“[Quote nguyên văn #2]”","textChars":23,"textLines":1,"bbox":[656,236,480,30]}
+{"kind":"textbox","id":"sh/hkb6tsbi","slide":5,"text":"— [Tên], [vai trò] · [ngày / phương thức validation]","textPreview":"— [Tên], [vai trò] · [ngày / phương thức validation]","textChars":52,"textLines":1,"bbox":[656,276,480,92]}
+{"kind":"textbox","id":"sh/gz25k7ux","slide":5,"text":"THAY ĐỔI ĐÃ LÀM","textPreview":"THAY ĐỔI ĐÃ LÀM","textChars":15,"textLines":1,"bbox":[62,438,330,24]}
+{"kind":"textbox","id":"sh/vytor2tc","slide":5,"text":"Feedback → [thay đổi UX / logic #1]  |  Feedback → [thay đổi UX / logic #2]","textPreview":"Feedback → [thay đổi UX / logic #1]  |  Feedback → [thay đổi UX / logic #2]","textChars":75,"textLines":1,"bbox":[62,478,1080,42]}
+{"kind":"shape","id":"sh/uxknixcr","slide":5,"bbox":[62,562,620,106]}
+{"kind":"textbox","id":"sh/twr6psb6","slide":5,"text":"[ĐÍNH KÈM link validation]","textPreview":"[ĐÍNH KÈM link validation]","textChars":26,"textLines":1,"bbox":[80,576,584,47]}
+{"kind":"textbox","id":"sh/8vi5gnu1","slide":5,"text":"Không dùng quote khen chung chung; cần ngữ cảnh và trace","textPreview":"Không dùng quote khen chung chung; cần ngữ cảnh và trace","textChars":56,"textLines":1,"bbox":[80,628,584,24]}
+{"kind":"textbox","id":"sh/7u9onitg","slide":5,"text":"Quote phải là nguyên văn và có thể mở lại bản ghi / form / note.","textPreview":"Quote phải là nguyên văn và có thể mở lại bản ghi / form / note.","textChars":64,"textLines":1,"bbox":[62,675,1090,20]}
+{"kind":"textbox","id":"sh/6t0nedcv","slide":5,"text":"Demo round · 5 min + Q&A","textPreview":"Demo round · 5 min + Q&A","textChars":24,"textLines":1,"bbox":[1008,675,210,20]}
+{"kind":"notes","id":"nt/yl3nm8","slide":5,"text":""}
+{"kind":"slide","id":"sl/fxu873","slide":6,"title":"06  /  06","textShapes":17}
+{"kind":"textbox","id":"sh/9ob6lk7m","slide":6,"text":"06  /  06","textPreview":"06  /  06","textChars":9,"textLines":1,"bbox":[62,42,150,24]}
+{"kind":"textbox","id":"sh/m1knqp8b","slide":6,"text":"Một tuần nữa: xử lý đúng những gì feedback và failure đang chỉ ra","textPreview":"Một tuần nữa: xử lý đúng những gì feedback và failure đang chỉ ra","textChars":65,"textLines":1,"bbox":[62,77,1080,58]}
+{"kind":"textbox","id":"sh/7mtojupg","slide":6,"text":"30 giây · 2–3 ưu tiên, rồi chuyển sang demo round 5 phút Q&A","textPreview":"30 giây · 2–3 ưu tiên, rồi chuyển sang demo round 5 phút Q&A","textChars":60,"textLines":1,"bbox":[62,140,1060,26]}
+{"kind":"shape","id":"sh/wrmpwzqd","slide":6,"bbox":[62,178,1156,2]}
+{"kind":"textbox","id":"sh/hsv6p47y","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,215,62,46]}
+{"kind":"textbox","id":"sh/upk7up87","slide":6,"text":"[Ưu tiên 1]","textPreview":"[Ưu tiên 1]","textChars":11,"textLines":1,"bbox":[150,215,360,46]}
+{"kind":"textbox","id":"sh/vqdonups","slide":6,"text":"Trỏ về: [feedback / failure]","textPreview":"Trỏ về: [feedback / failure]","textChars":28,"textLines":1,"bbox":[550,215,540,46]}
+{"kind":"shape","id":"sh/cvi5kvqt","slide":6,"bbox":[62,283,1050,1]}
+{"kind":"textbox","id":"sh/xwr6d07e","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[62,309,62,46]}
+{"kind":"textbox","id":"sh/1wvedkzu","slide":6,"text":"[Ưu tiên 2]","textPreview":"[Ưu tiên 2]","textChars":11,"textLines":1,"bbox":[150,309,360,46]}
+{"kind":"textbox","id":"sh/0vmd4fi9","slide":6,"text":"Trỏ về: [feedback / failure]","textPreview":"Trỏ về: [feedback / failure]","textChars":28,"textLines":1,"bbox":[550,309,540,46]}
+{"kind":"shape","id":"sh/zudwbaho","slide":6,"bbox":[62,377,1050,1]}
+{"kind":"textbox","id":"sh/et4v2503","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[62,403,62,46]}
+{"kind":"textbox","id":"sh/90feh4zq","slide":6,"text":"[Ưu tiên 3]","textPreview":"[Ưu tiên 3]","textChars":11,"textLines":1,"bbox":[150,403,360,46]}
+{"kind":"textbox","id":"sh/oz6d8zi5","slide":6,"text":"Trỏ về: [feedback / failure]","textPreview":"Trỏ về: [feedback / failure]","textChars":28,"textLines":1,"bbox":[550,403,540,46]}
+{"kind":"shape","id":"sh/nyxwfuh0","slide":6,"bbox":[62,471,1050,1]}
+{"kind":"shape","id":"sh/mx4v6p0f","slide":6,"bbox":[62,522,1050,92]}
+{"kind":"textbox","id":"sh/xofel4z2","slide":6,"text":"Bài học lớn nhất","textPreview":"Bài học lớn nhất","textChars":16,"textLines":1,"bbox":[84,538,250,22]}
+{"kind":"textbox","id":"sh/w36xczih","slide":6,"text":"[Một câu: điều evidence đã buộc team thay đổi cách nghĩ / cách xây]","textPreview":"[Một câu: điều evidence đã buộc team thay đổi cách nghĩ / cách xây]","textChars":67,"textLines":1,"bbox":[84,564,970,30]}
+{"kind":"textbox","id":"sh/g7ex836d","slide":6,"text":"Q&A: giám khảo chạy 1 case lạ tại chỗ · mỗi thành viên nói ≥1 phần","textPreview":"Q&A: giám khảo chạy 1 case lạ tại chỗ · mỗi thành viên nói ≥1 phần","textChars":66,"textLines":1,"bbox":[62,640,1050,24]}
+{"kind":"textbox","id":"sh/h8nyh87y","slide":6,"text":"Checklist trước khi trình bày: link evidence mở được · demo có case khó · owner từng phần rõ ràng.","textPreview":"Checklist trước khi trình bày: link evidence mở được · demo có case khó · owner từng phần rõ ràng.","textChars":98,"textLines":1,"bbox":[62,675,1090,20]}
+{"kind":"textbox","id":"sh/u5wf6don","slide":6,"text":"Demo round · 5 min + Q&A","textPreview":"Demo round · 5 min + Q&A","textChars":24,"textLines":1,"bbox":[1008,675,210,20]}
+{"kind":"notes","id":"nt/fxu873","slide":6,"text":""}

@@ -1,0 +1,50 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 8,
+  "slide_number": 8,
+  "source_text": "Năng lượng và sức mạnh của tín hiệu\n❑ Tổng năng lượng của tín hiệu thời gian liên tục f(t) là\n∞\n = න  ( )2  \n− ∞\n❑ Và công suất trung bình của nó là\n Τ2\n1 = lim න  ( )2  \n→∞ \n−  Τ2\n❑ Tương tự, đối với tín hiệu thời gian rời rạc f(n)\n∞\n =    [ ]2\n=−∞\n \n1\n→∞2  + 1 = lim  [ ]2\n=−",
+  "title": "Năng lượng và sức mạnh của tín hiệu",
+  "vision_description": "The lecture page discusses the energy and power of signals, focusing on continuous and discrete time signals. It includes mathematical formulas and explanations.",
+  "main_message": "The page explains how to calculate the total energy and average power of continuous and discrete time signals using integrals and summations.",
+  "concepts": [
+    "Signal energy",
+    "Signal power",
+    "Continuous time signals",
+    "Discrete time signals"
+  ],
+  "definitions": [
+    "Total energy of continuous time signal: The integral of the square of the signal over time.",
+    "Average power of continuous time signal: The limit of the integral of the square of the signal over a period, divided by the period.",
+    "Total energy of discrete time signal: The sum of the squares of the signal values.",
+    "Average power of discrete time signal: The limit of the sum of the squares of the signal values divided by the number of values."
+  ],
+  "formulas": [
+    "E = ∫ f(t)^2 dt from -∞ to ∞",
+    "P = lim (T→∞) (1/T) ∫ f(t)^2 dt from -T/2 to T/2",
+    "E = Σ f[n]^2 from n=-∞ to ∞",
+    "P = lim (N→∞) (1/(2N+1)) Σ f[n]^2 from n=-N to N"
+  ],
+  "examples": [],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Năng lượng: Energy",
+    "Sức mạnh: Power",
+    "Tín hiệu: Signal",
+    "Thời gian liên tục: Continuous time",
+    "Thời gian rời rạc: Discrete time"
+  ],
+  "embedding": [],
+  "image_objects": [],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0008.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "3018e6b90ed1642965da71f4971d1127f19a0c1796b2d6c1d56b72fe245a8f4a",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

@@ -3,9 +3,7 @@
 Upload a PDF, highlight passages or capture regions of a page, and ask a **strictly grounded**
 AI tutor about them. Also generates 4-option multiple-choice quizzes from the document.
 
-- **AI model:** Gemini Flash via `google-genai` — default `gemini-3.5-flash`, set by `GEMINI_MODEL`.
-  `gemini-2.5-flash` is listed by the API but returns `404 NOT_FOUND` for new keys
-  ("no longer available to new users"), so the default is the current Flash-tier model.
+- **AI model:** OpenAI Responses API — default `gpt-5.6-sol`, set by `OPENAI_MODEL`.
 - **Backend:** FastAPI + Swagger UI
 - **Frontend:** React 19 + Vite + pdf.js
 
@@ -21,14 +19,14 @@ AI tutor about them. Also generates 4-option multiple-choice quizzes from the do
 ```bash
 cd codebase/backend
 pip install -r requirements.txt
-cp .env.example .env          # then put your key in GEMINI_API_KEY
-uvicorn main:app --reload --port 8000
+cp .env.example .env          # then put your key in OPENAI_API_KEY
+uvicorn main:app --reload --port 8001
 ```
 
-Get a key at https://aistudio.google.com/apikey.
+Get a key at https://platform.openai.com/api-keys.
 
-- API: http://localhost:8000
-- **Swagger UI: http://localhost:8000/docs**
+- API: http://localhost:8001
+- **Swagger UI: http://localhost:8001/docs**
 
 ### 2. Frontend
 
@@ -38,7 +36,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173. Vite proxies `/api` to port 8000, so the browser sees one origin.
+Open http://localhost:5173. Vite proxies `/api` to port 8001, so the browser sees one origin.
 
 ---
 
@@ -74,7 +72,7 @@ The strict-grounding constraint is enforced in three places, not just in the pro
    as `dropped`.
 
 Screenshots are also in-scope source material: a crop is pixels from the uploaded PDF, sent to
-Gemini as an image part alongside that page's text.
+OpenAI as an image input alongside that page's text.
 
 ---
 
@@ -109,7 +107,7 @@ codebase/
 │   ├── retrieval.py     BM25 over page chunks (dependency-free)
 │   ├── grounding.py     context selection + citation verification
 │   ├── prompts.py       system instructions
-│   ├── gemini.py        Gemini 2.5 Flash structured-output client
+│   ├── openai_client.py OpenAI Responses API structured-output client
 │   ├── routers/         documents · chat · quiz
 │   └── storage/         uploaded PDFs + extracted pages (gitignored)
 └── frontend/

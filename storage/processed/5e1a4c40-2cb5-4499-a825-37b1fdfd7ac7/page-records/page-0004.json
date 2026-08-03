@@ -1,0 +1,61 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 4,
+  "slide_number": 4,
+  "source_text": "Tín hiệu là gì?\n❑ Nói một cách đại khái, bất cứ điều gìmang thông tincó thể \ncoi là tín hiệu: lời nói, ECG, chỉ số VN,…\n❑ Âm mưu chống lại thời gian, được gọi là mộtbiến độc lập\n➢ Một tín hiệu có thể có nhiều biến độc lập hơn, ví dụ như hình ảnh, video,…",
+  "title": "Tín hiệu là gì?",
+  "vision_description": "The lecture page titled 'Tín hiệu là gì?' discusses the concept of signals. It includes text, images, and diagrams to explain the topic. The page is structured with a title at the top, followed by bullet points and images.",
+  "main_message": "A signal is anything that carries information, such as speech, ECG, or stock indices. Signals can have multiple independent variables, like images or videos.",
+  "concepts": [
+    "Signal",
+    "Information",
+    "Independent variable"
+  ],
+  "definitions": [
+    {
+      "term": "Tín hiệu",
+      "definition": "Bất cứ điều gì mang thông tin có thể coi là tín hiệu."
+    },
+    {
+      "term": "Biến độc lập",
+      "definition": "Một tín hiệu có thể có nhiều biến độc lập hơn, ví dụ như hình ảnh, video."
+    }
+  ],
+  "formulas": [],
+  "examples": [
+    "Lời nói, ECG, chỉ số VN"
+  ],
+  "tables": [],
+  "charts": [
+    {
+      "description": "ECG graph and stock index chart",
+      "spatial_relationship": "The ECG graph is on the left, and the stock index chart is on the right."
+    }
+  ],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Signal: Tín hiệu",
+    "Independent variable: Biến độc lập"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0004.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "9116119165d7593ba52df697c2201db0b9f222feafdd7833dad9e91bcf5babc2",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

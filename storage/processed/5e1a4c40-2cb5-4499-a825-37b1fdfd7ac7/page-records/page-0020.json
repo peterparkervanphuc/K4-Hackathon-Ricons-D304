@@ -1,0 +1,56 @@
+{
+  "document_id": "5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7",
+  "page": 20,
+  "slide_number": 20,
+  "source_text": "Ví dụ về xây dựng một khu phức hợp\ntín hiệu từ tín hiệu cơ bản",
+  "title": "Ví dụ về xây dựng một khu phức hợp",
+  "vision_description": "The page contains a title, diagrams, and mathematical representations related to signal processing. The diagrams illustrate the construction of complex signals from basic signals using step functions.",
+  "main_message": "The page demonstrates how to construct complex signals from basic signals using step functions.",
+  "concepts": [
+    "Signal processing",
+    "Step functions",
+    "Rectangular pulse",
+    "Signal construction"
+  ],
+  "definitions": [],
+  "formulas": [],
+  "examples": [
+    "Representation of a rectangular pulse by step functions"
+  ],
+  "tables": [],
+  "charts": [],
+  "notes": "",
+  "previous_page_relation": "",
+  "next_page_relation": "",
+  "confidence": 0.95,
+  "source_language": "vi",
+  "bilingual_aliases": [
+    "Ví dụ về xây dựng một khu phức hợp: Example of constructing a complex",
+    "tín hiệu từ tín hiệu cơ bản: signal from basic signal"
+  ],
+  "embedding": [],
+  "image_objects": [
+    {
+      "index": 1,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 2,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 3,
+      "kind": "embedded_image"
+    },
+    {
+      "index": 4,
+      "kind": "embedded_image"
+    }
+  ],
+  "rendered_image": "C:\\Users\\Admin\\Downloads\\K4-Hackathon-Ricons-D304\\storage\\processed\\5e1a4c40-2cb5-4499-a825-37b1fdfd7ac7\\renders\\page-0020.png",
+  "uncertain_content": [],
+  "vision_error": null,
+  "processing_version": "5.0-page-vision-openai",
+  "source_fingerprint": "ea15203f046635d718d12702ee775c78d8f6d9af425bfb1ab05ea4a4d18a3ae8",
+  "original_name": "SS01_2023S1.en.vi.pdf"
+}

@@ -54,7 +54,7 @@ app.include_router(quiz.router)
 def health() -> HealthResponse:
     return HealthResponse(
         status="ok",
-        gemini_configured=config.gemini_configured(),
-        model=config.GEMINI_MODEL,
+        openai_configured=config.openai_configured(),
+        model=config.OPENAI_MODEL,
         documents=len(document_store.list()),
     )
