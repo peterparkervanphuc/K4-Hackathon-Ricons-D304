@@ -30,5 +30,5 @@ Dựa trên việc đọc và chạy thử nghiệm codebase hiện tại (`app.
 | Phản hồi từ User | Hành động của nhóm | Trạng thái |
 |---|---|---|
 | Text area bối cảnh hơi hẹp khi dán đoạn dài (User #3). | Cập nhật CSS cho `stTextArea` để tăng chiều cao mặc định và hỗ trợ tự động giãn. | ✅ Đã sửa |
-| Muốn biết rõ hơn AI dùng model nào để tin tưởng. | Bổ sung thông tin Model (Gemini-3.1-flash-lite) vào bảng Metrics. | ✅ Đã sửa |
+| Muốn biết rõ hơn AI dùng model nào để tin tưởng. | Bổ sung thông tin Model (OpenAI / Gemini) vào bảng Metrics. | ✅ Đã sửa |
 | Cần nút nhanh để copy câu trả lời giải nghĩa. | Sẽ nghiên cứu thêm nút 'Copy to clipboard' vào phiên bản sau. | ⏳ Backlog |

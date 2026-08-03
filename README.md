@@ -44,9 +44,10 @@
 
 Dự án được chia thành 2 phần: **Backend** (FastAPI) và **Frontend** (React + Vite + TypeScript).
 
-### 1. Cấu hình khóa API Gemini
-Sản phẩm sử dụng mô hình **Gemini 3.5 Flash** (hoặc model Flash hiện hành) để xử lý ngôn ngữ và hình ảnh.
-- Lấy API Key tại: [Google AI Studio](https://aistudio.google.com/apikey)
+### 1. Cấu hình khóa API (OpenAI / Gemini)
+Sản phẩm hỗ trợ sử dụng OpenAI (ví dụ: `gpt-4o`, `gpt-4o-mini`) bằng `OPENAI_API_KEY`. Nếu bạn dùng Google Gemini thay thế, `GEMINI_API_KEY` cũng được chấp nhận.
+- Lấy OpenAI API Key tại: https://platform.openai.com
+- (Nếu dùng Gemini) Lấy Gemini API Key tại: https://aistudio.google.com/apikey
 
 ---
 
@@ -74,7 +75,8 @@ pip install -r requirements.txt
 copy .env.example .env
 
 # Mở file .env vừa tạo và điền API Key của bạn:
-# GEMINI_API_KEY=your_actual_gemini_api_key_here
+# OPENAI_API_KEY=your_actual_openai_api_key_here  # preferred
+# Or: GEMINI_API_KEY=your_actual_gemini_api_key_here  # legacy/gemini
 ```
 
 #### Bước 2: Khởi tạo Frontend

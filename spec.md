@@ -194,7 +194,7 @@ Dưới đây là bảng phân tích kịch bản lỗi rủi ro dựa trên 4 l
   - **Đào Ngọc Duy** (Mã HV: 2A202601780):
     - Nghiên cứu yêu cầu, lập Spec bản đặc tả kỹ thuật (§1-§9).
     - Khai thác dữ liệu chatlog thực tế (evidence mining).
-    - Viết Prompt hướng dẫn mô hình Gemini Flash.
+    - Viết Prompt hướng dẫn mô hình (OpenAI / Gemini) phù hợp với client đang dùng.
     - Phát triển toàn bộ Backend (FastAPI, RAG BM25, Grounding Filters, Quiz Router).
     - Phát triển Frontend (Giao diện React, pdf.js, Selection highlights, Image crop).
     - Viết Test suite, xây dựng Golden Set và thực hiện User Validation.
